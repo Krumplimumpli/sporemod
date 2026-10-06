@@ -1,0 +1,443 @@
+﻿Leesmij-bestand voor Spore(tm)
+(c)2008 Electronic Arts Inc. Alle rechten voorbehouden
+
+MAXIS(tm) 1-9-08
+Versie 1.0
+
+== Inhoud ==
+Algemeen
+Systeemeisen
+Bekende hardware-problemen
+Tips voor betere prestaties
+Opmerkingen
+Besturing en sneltoetsen
+Opmerkingen over compatibiliteit
+
+
+ALGEMEEN
+========
+
+Welkom bij Spore! We hopen dat je hier veel plezier mee zult hebben.
+Ga voor de meest recente informatie over het spel
+en gerelateerde producten naar
+
+                 http://www.spore.com
+
+
+Systeemeisen
+============
+
+Voor Spore is minimaal het volgende vereist:
+
+VOOR WINDOWS XP
+ * 2,0 GHz P4 processor of overeenkomstig
+ * 512 MB RAM
+ * Een videokaart met 128 MB geheugen die Pixel Shader 2.0 ondersteunt
+ * De meest recente versie van DirectX 9.0c
+ * Microsoft Windows XP Service Pack 1
+ * Minimaal 4 GB vrije schijfruimte, met minstens 1 GB extra ruimte voor creaties.
+
+VOOR WINDOWS VISTA
+ * 2,0 GHz P4 processor of overeenkomstig
+ * 768 MB RAM
+ * Een videokaart met 128 MB geheugen die Pixel Shader 2.0 ondersteunt  
+ * Minimaal 4 GB vrije schijfruimte, met minstens 1 GB extra ruimte voor creaties.
+
+Voor computers die gebruik maken van ingebouwde grafische chipsets,
+is minimaal het volgende vereist:
+ * Intel Integrated Chipset, 945GM of meer.
+ * 2.6 GHz Pentium D CPU of 1.8 GHz Core 2 Duo of overeenkomstig.
+ * 768 MB RAM
+
+VOOR MAC OS X
+ * Mac OS X 10.5.3 Leopard of hoger
+ * Intel Core Duo Processor
+ * 1024 MB RAM
+ * ATI X1600 of Nvidia 7300 GT met 128 MB Video RAM, of Intel Integrated GMA X3100.
+ * Minimaal 4 GB vrije schijfruimte, met minstens 1 GB extra ruimte voor creaties.
+
+ Dit spel zal niet draaien op Mac-systemen die gebaseerd zijn op PowerPC (G3/G4/G5) of met geïntegreerde GMA 950-videokaarten.
+
+
+Ondersteunde videokaarten
+=========================
+
+NVIDIA GeForce-reeks
+  FX 5900, FX 5950
+  6200, 6500, 6600, 6800,
+  7200, 7300, 7600, 7800, 7900, 7950
+  8400, 8500, 8600, 8800
+  9600, 9800, GTX 260, GTX 280
+
+ATI Radeon(TM) reeks
+  9500, 9600, 9800
+  X300, X600, X700, X800, X850
+  X1300, X1600, X1800, X1900, X1950
+  2400, 2600, 2900,
+  3450, 3650, 3850, 3870
+  4850
+  
+Intel(R) Extreme Graphics
+  Windows: GMA 950, GMA 3x00-reeks
+  Mac OS X: GMA X3100
+
+Mogelijk werken laptopversies van deze chipsets ook, maar waarschijnlijk
+vrij traag. Losse kaarten die zijn geïnstalleerd in 
+vanilla PCI-sleuven (niet PCIe of PCIx of AGP), zoals een 
+aantal varianten van GeForce FX, presteren slecht. Geïntegreerde chipsets
+van Intel met ondergeklokte onderdelen, zoals de 945GU, GML en GMS,
+zullen niet naar behoren presteren.
+
+Geïntegreerde chipsets zoals de ATI Xpress en de
+NVIDIA TurboCache varianten werken met lage instellingen
+maar zouden naar behoren moeten werken.
+
+Houd er rekening mee dat als je probeert het spel te spelen met videohardware 
+die niet hierboven is genoemd, dit slechtere 
+resultaten of grafische problemen kan opleveren, of dat het spel 
+helemaal niet wil starten.
+
+De reeks NVIDIA GeForce FX wordt onder Vista niet ondersteund.
+
+
+Bekende hardware-problemen
+==========================
+
+Het kan zijn dat het spel niet meer reageert wanneer je bezig bent met het verven van 
+je wezen of wanneer je wisselt tussen het volledige scherm en een klein spelvenster. 
+Om dit te verhelpen, moet je de graphics-drivers bijwerken via de website van de verkoper.
+
+Als het weergaveformaat wordt veranderd, kan het zijn dat de monitor  
+niet reageert op een resolutie die deze wel zou moeten ondersteunen. 
+Het beeld is dan zwart of vertekend. Als dit gebeurt, schakel dan over op de venstermodus en  
+stel de resolutie en de vernieuwingssnelheid in op een kleinere waarde.
+
+Audio hardware acceleration wordt niet ondersteund.
+
+Windows Vista:
+Bij het installeren van het spel kunnen sommige gebruikers van Microsoft Vista 
+een waarschuwing ontvangen over tekort aan adresruimte en tevens 
+een link naar de Microsoft Knowledge Base. Als je deze boodschap  
+krijgt, bevelen wij aan om de instructies op te volgen en naar de  
+genoemde website te gaan om je systeem bij te werken.
+
+Turtle Beach Montego DDL Surround 5.1 wordt niet ondersteund. 
+Deze modus is beschikbaar via de opties, maar het geluid 
+zal in stereo (2 kanalen) zijn voor alle luidsprekers.
+
+Mac OS X:
+Op Mac OS X systemen die NVIDIA-kaarten bevatten met minder dan 
+256 MB VRAM, kan het nodig zijn om de grafische kwaliteit terug te brengen 
+via de methode die beschreven is onder General Troubleshooting (het oplossen van algemene problemen) voor een verbeterde grafische kwaliteit.
+
+Als het spel draait op een Mac Book Pro met display mirroring (gespiegelde weergave) 
+ingeschakeld, zorg er dan voor dat je een resolutie kiest die wordt 
+ondersteund door zowel de interne als externe weergaven. 
+Je kunt om dit probleem heen werken door er voor te zorgen dat het interne 
+LCD-scherm is ingesteld als de hoofdmonitor van het systeem, vóór display mirroring 
+(gespiegelde weergave) ingeschakeld is, zodat je de juiste resoluties te zien krijgt.
+
+Het kan zijn dat de spelaudio stopt wanneer de hoofdtelefoon wordt aangesloten als het spel als is opgestart. Om te voorkomen dat dit gebeurt, moet je ervoor zorgen dat de hoofdtelefoon is aangesloten op je Mac voor het spel wordt opgestart. 
+
+Als je een ATI X1600- of X1900-kaart hebt en je hebt problemen met de beeldsnelheid, stel dan de belichtingskwaliteit in op laag.
+
+
+Tips voor betere prestaties
+===========================
+
+Als je Spore voor het eerst start,
+selecteert het spel automatisch de meest geschikte opties
+voor je grafische kaart, CPU en geluidskaart. Gebruik
+het controlepaneel om de prestaties te verbeteren door de 
+instellingen om te zetten naar "middel" of "laag".
+
+Je kunt de prestaties van het spel ook verbeteren door
+de resolutie waaronder het spel draait te verlagen naar
+1024 x 768 of 800 x 600. We raden af om de volledigschermresolutie te gebruiken als de resolutie van je monitor verticaal of horizontaal 1600 of hoger is.
+
+Spore is een real-time 3D spel dat een groot gedeelte
+van het processorvermogen in beslag neemt. 
+Wanneer andere programma's in de achtergrond draaien, kan het spel 
+trager lopen of kunnen er haperingen optreden. Voor het beste resultaat
+wordt daarom aangeraden om alle applicaties die in de achtergrond draaien
+af te sluiten tijdens het spelen van Spore.
+
+De prestaties zijn over het algemeen beter bij een volledig scherm dan in een venster.
+
+
+Opmerkingen
+===========
+
+Spore-foutmeldingen
+-------------------
+
+Hieronder staan enkele fout- en waarschuwingsmeldingen die je in het spel te zien kunt krijgen, en tevens enkele suggesties voor oplossingen.
+
+
+1000: Er draait al een ander exemplaar van Spore. Sluit dit af of verwijder het.
+
+1001: Het spel kan geen geldige weergavemodi vinden. Zorg ervoor dat je weergave is ingesteld op 32 bits.
+
+1002: Direct X is niet geïnstalleerd. Installeer het of installeer het spel opnieuw.
+
+1004: Het spel kan zijn datadirectory niet vinden. Installeer het spel opnieuw.
+
+1010: Een update van de drivers van je grafische kaart is aan te raden om compatibiliteitsproblemen te voorkomen. Hiervoor kun je naar de website van de hardwarefabrikant van je kaart gaan. Het adres van de websites van NVIDIA, ATI en Intel is:
+	
+	http://www.nvidia.com/content/drivers/drivers.asp
+	http://www.ati.amd.com/support/driver.html
+	http://support.intel.com/support/graphics
+
+1011: Je moet de drivers van je grafische kaart upgraden om ernstige problemen met het spel te voorkomen. Zie bovenstaande.
+
+1012: In de multi GPU-modus heeft het spel problemen met deze kaart. Update je drivers of schakel de multi GPU-modus uit in het configuratiescherm van de verkoper.
+
+2001: Het systeem voldoet niet aan onze minimale specificaties, dus het spel kan niet worden geïnstalleerd.
+
+2002: Het systeem voldoet niet aan onze minimale specificaties. Het kan zijn dat er problemen ontstaan op het gebied van graphics, prestaties of audio.
+
+2003: Je werkt met een versie van Vista die problemen heeft met grafische kaarten met een grote hoeveelheid VRAM. Update naar SP1 of installeer de bijbehorende fix op
+	
+	http://support.microsoft.com/default.aspx/kb/940105
+
+
+Online hulp
+-----------
+
+De Customer Support site van Electronic Arts voor gebruikers uit Noord-Amerika is te vinden op
+
+  http://support.ea.com 
+
+en de site voor Europese gebruikers op
+
+  http://eusupport.ea.com
+
+Gebruik de zoekfuncties om de informatie die je nodig hebt te vinden. De Knowledge Base 
+wordt bijgewerkt wanneer er nieuwere informatie beschikbaar komt. Breng dus regelmatig 
+een bezoekje aan de site voor het laatste nieuws en de nieuwste informatie.
+
+
+
+Het spel installeren
+--------------------
+
+Windows (schijfgebruikers):
+ * Leg de schijf in je discdrive en volg de instructies op het scherm
+ * Als het spel is geïnstalleerd, kun je het starten door het te zoeken in het startmenu
+ * In Windows Vista(tm) zijn spellen te vinden onder 'start' en 'ontspanning', en in oudere versies van Windows(tm) onder 'start' en 'alle programma's'
+
+Windows (gebruikers EA Store):
+ * Als het spel is gedownload met de EA-downloadmanager, klik dan op het installatie-icoontje en volg de instructies op het scherm
+ * Start het spel (als het is geïnstalleerd) meteen vanuit de EA-downloadmanager
+
+In het klassieke startmenu van Windows Vista zijn spellen te vinden onder 'start', 'programma's', 'ontspanning', 'spelverkenner'.
+
+
+Mac OS X:
+ * Plaats de spel-cd in je CD/DVD-ROM-drive. Op je desktop verschijnt een cd-icoontje 
+   dat staat voor de spel-cd.
+   Door tweemaal op het icoontje te klikken open je het startscherm van het spel.
+ * Selecteer het installatie-icoon van het spel onder aan het startscherm
+   om het installatiemenu te openen.
+ * Volg de instructies op het scherm om de installatie te voltooien.
+
+Installatie digitale retail
+---------------------------
+
+Voor instructies over het installeren van het spel, of over het downloaden en installeren van een extra exemplaar van het spel, gelieve contact op te nemen met de online winkel waarbij je dit spel hebt gekocht.
+
+Opmerking: voor tips, patches en extra informatie over het spel, bezoek http://www.ea.com of http://www.eastore.com.
+
+
+Het spel deïnstalleren
+----------------------
+
+Windows XP:
+ * Open 'Programma's wijzigen of verwijderen' in het configuratiescherm.
+ * Klik op 'Programma's wijzigen of verwijderen'.
+ * Klik op de Spore programma-invoer.
+ * Klik op de knop 'Verwijderen'. 
+ * Volg de instructies op het scherm om het spel verder te deïnstalleren.
+
+Windows Vista:
+ * Open het configuratiescherm voor programma's en kenmerken. 
+ * Klik op de Spore programma-invoer. 
+ * Klik op de knop 'Deïnstalleren'. 
+ * Volg de instructies op het scherm om het spel verder te deïnstalleren.
+
+Mac OS X:
+ * Zorg ervoor dat je ingelogd bent met een account
+   waarmee je gebruik kunt maken van Administratieve privileges.
+ * Wis de SPORE-map uit je map met Applicaties.
+ * Aanvullende bestanden kunnen gevonden worden
+   in /Users/<gebruikersnaam>/Library/Preferences/Preferences.
+ * Verwijder de map /Users/<gebruikersnaam>/Documents/Mijn Spore Creaties om content gecreëerd door Spore te verwijderen.
+
+
+Locaties op schijf
+------------------
+
+Spore slaat je wezens, films, foto's 
+en geanimeerde avatars op in de map "Mijn Spore-creaties". De locatie van deze map 
+hangt af van je besturingssysteem:
+
+Windows XP:
+* "Mijn Spore-creaties" bevinden zich in de map "Mijn documenten". 
+
+Windows Vista:
+* "Mijn Spore-creaties" bevinden zich in de map "Documenten".
+
+Mac OS X:
+* "My Spore Creations" bevinden zich in de map "Documents".
+
+Spore houdt ook een buffer bij voor de grafische elementen voor bestoven content 
+die je hebt gedownload. Als je schijfruimte tekort komt, probeer dan 
+de omvang van die buffer te beperken in de grafische opties.
+
+
+Besturing en sneltoetsen
+========================
+
+
+- Wezenschepper -
+
+Klik op de linkermuisknop om onderdelen te selecteren en te verplaatsen.
+
+Klik op de linkermuisknop om de pijlvormige hendels op het geselecteerde 
+onderdeel te verplaatsen en zo de vorm ervan te veranderen.
+
+Sleep met de linkermuisknop onderdelen van een wezen weg om ze terug te verkopen.
+
+Beweeg met de muis over een onderdeel of een ruggengraatsegment en gebruik het  
+muiswieltje om het formaat ervan aan te passen. Of selecteer het onderdeel  
+en gebruik de pijltoetsen omhoog en omlaag.
+
+Houd de Alt-toets ingedrukt terwijl je op het onderdeel klikt en het versleept om een onderdeel te kopiëren. Gebruik Option in plaats van Alt op Mac-systemen.
+
+Klik op de linkermuisknop en sleep de ruggengraat om de vorm ervan te wijzigen. 
+Gebruik de pijltoetsen om de ruggengraat langer of korter te maken.
+
+Klik op de linkermuisknop op de huid van de romp (niet op de ruggengraat) om deze te verplaatsen.
+
+Hou de Control-toets ingedrukt terwijl je een ledemaatsegment versleept om het aan een ander 
+ledemaat te bevestigen.
+
+Als je de Tab-toets ingedrukt houdt wanneer een onderdeel is geselecteerd, verschijnen er extra 
+rotatiehendels.
+
+
+- Gebouwenschepper -
+
+Om een onderdeel verticaal te verplaatsen, houd je de Ctrl-toets ingedrukt terwijl je de muis ingedrukt houdt op een onderdeel en dit verplaatst.
+
+Om een onderdeel te verplaatsen op het podium, houd je de Shift-toets ingedrukt terwijl je de muis ingedrukt houdt op een onderdeel en dit verplaatst.
+
+- Voertuigschepper -
+
+Romp- en cockpitonderdelen sluiten automatisch op elkaar aan in het midden van het voertuig.
+
+Elk voertuig heeft een beperkte hoogte en breedte.
+
+Om het hele voertuig te verplaatsen, houd je de Shift-toets ingedrukt terwijl je de muis beweegt.
+
+
+- Camera -
+
+Door met de linkermuisknop op de achtergrond te klikken, draait de camera rond.
+
+In de proefritmodus kun je door middel van het muiswieltje de camera in en uit laten zoomen.
+
+In de bouw- en in de verfmodus kun je de camera met de Shift-toets en het muiswieltje
+in en uit laten zoomen. 
+
+< en >		De camera draaien
++ en -		In- of uitzoomen
+
+- Algemeen -
+
+Control-N	Nieuw wezen starten
+Control-Y	Opnieuw doen
+Control-Z	Ongedaan maken
+Control-S	Wezen opslaan
+Control-H	Gebruikersinterface aan/uit
+H of ?		De Spore-gids openen of afsluiten
+B            	De Sporepedia™ openen
+
+
+Windows:
+Alt-Enter	Schakelen tussen de modi klein spelvenster en volledig scherm
+
+Mac OS X:
+Command-Return:   Wissel tussen weergave in venster en in volledig scherm.
+Command-Tab:	  Minimaliseer het spel bij een weergave in een volledig scherm.
+
+Let op: het spel kan niet gepauzeerd worden wanneer het geminimaliseerd is. 
+Het gaat in de achtergrond gewoon door.
+
+
+- Functionaliteit voor de rechtermuisknop op Mac OS X -
+
+Dit spel bevat onderdelen waarvoor een rechtermuisknop vereist is.  
+Als je een Apple Mighty Mouse hebt, kun je de rechtermuisknop activeren 
+in Systeemvoorkeuren -> Toetsenbord en muis. Wijzig het
+Rechterklik-menu door Secundaire toets te selecteren.
+
+Om het klikken van beide knoppen tegelijk na te bootsen met de Apple Mighty Mouse houd je de scrollknop ingedrukt en klik je met de linkermuisknop terwijl je de toetsen Command en Option ingedrukt houdt.
+
+Ook worden de meeste USB-muizen voor de PC ondersteund door de Macintosh. 
+De linker- en rechtermuisknoppen worden herkend en werken 
+correct, zo gauw de muis voor het eerst wordt aangesloten. 
+
+Als je een Apple legacy-muis hebt met een enkele knop, of een MacBook Pro
+met een Track Pad, dan kun je de klik van de rechtermuisknop vervangen door 
+de Command-toets in te drukken terwijl je met de muisknop klikt. 
+
+Om het klikken van beide knoppen tegelijk na te bootsen met een muis met één knop, houd je de toetsen Command en Option ingedrukt terwijl je klikt met de muisknop.
+
+
+Opties voor de opdrachtprompt
+-----------------------------
+
+De volgende opties voor de opdrachtprompt worden ondersteund:
+  -w     Draai in venstermodus
+  -f     Draai in volledig scherm
+  -r:<breedte>x<hoogte> 
+         Draai op de gegeven resolutie.
+  -safe  Minimale set configuratie-opties zonder
+         optionele plug-ins laden.
+
+
+Cheats
+------
+
+Om cheats te gebruiken gedurende het spel, open je eerst de opdrachtprompt door 
+tegelijkertijd Ctrl-Shift-C in te drukken. Druk op Enter 
+om de opdrachtprompt te sluiten. Enkele cheats die 
+je hier kunt gebruiken:
+
+help: geeft een overzicht van alle cheats in het spel.
+help [naam cheat]: toont specifieke informatie over de cheat.
+quit: het spel afsluiten
+
+
+Opmerkingen over compatibiliteit
+================================
+
+Spore is ontworpen voor gebruik met grafische en geluidskaarten 
+die compatibel zijn met Windows XP. Stuurprogramma's voor deze onderdelen worden 
+geleverd door de fabrikant van de betreffende kaart en kunnen 
+compatibiliteitsproblemen opleveren die buiten ons bereik vallen.
+
+Als je problemen ervaart, raden we aan om de nieuwste  
+stuurprogramma's voor de hardware te installeren.  
+De meeste hardware-fabrikanten stellen de nieuwste stuurprogramma's  
+op hun website beschikbaar.  
+
+
+Meer informatie over bekende technische problemen is beschikbaar op http://www.spore.com.
+
+Bedankt voor het spelen van Spore!
+Het 'Spore'-team
+MAXIS
+
+

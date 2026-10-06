@@ -1,0 +1,485 @@
+﻿Archivo Readme (Léeme) de Spore(TM)
+(c)2008 Electronic Arts Inc. Todos los derechos reservados.
+
+MAXIS(TM) 1/09/08
+Versión 1.0
+
+== Índice ==
+Presentación
+Requisitos del sistema
+Problemas conocidos con el hardware
+Consejos sobre el rendimiento
+Notas
+Controles y atajos
+Notas acerca de la compatibilidad
+
+
+Presentación
+============
+
+¡Bienvenido a Spore! Esperamos que te diviertas mucho con este título. 
+Para obtener información actualizada sobre el juego y
+otros productos relacionados, visita
+
+                 http://www.spore.com.
+
+
+Requisitos del sistema
+===================
+
+Spore necesita al menos lo siguiente:
+
+PARA WINDOWS XP
+ * Un procesador P4 a 2,0 GHz o equivalente;
+ * 512 MB de RAM;
+ * una tarjeta de vídeo de 128 MB compatible con Pixel Shader 2.0; 
+ * La última versión de DirectX 9.0c
+ * Microsoft Windows XP Service Pack 1
+ * Al menos 4 GB de espacio libre en el disco duro, y un mínimo de 1 GB 
+   de espacio adicional para las creaciones
+
+PARA WINDOWS VISTA
+ * Un procesador P4 a 2,0 GHz o equivalente;
+ * 768 MB de RAM;
+ * una tarjeta de vídeo de 128 MB compatible con Pixel Shader 2.0;  
+ * Al menos 4 GB de espacio libre en el disco duro, y un mínimo de 1 GB 
+   de espacio adicional para las creaciones
+
+En los ordenadores que utilicen chipsets de gráficos integrados, 
+el juego requiere como mínimo:
+ * un chipset Intel 945GM integrado o superior;
+ * Procesador Pentium D a 2.6 GHz o Core 2 Duo a 1.8 GHz (o equivalente).
+ * 768 MB de RAM;
+
+PARA MAC OS X
+ * Mac OS X 10.5.3 Leopard o superior
+ * Procesador Intel Core Duo
+ * 1024 MB de RAM
+ * ATI X1600 o Nvidia 7300 GT con 128 MB de RAM de vídeo, o
+   Intel Integrated GMA X3100.
+ * Al menos 4 GB de espacio libre en el disco duro, y un mínimo de 1 GB 
+   de espacio adicional para las creaciones
+
+Este juego no se puede ejecutar en PowerPC (G3/G4/G5) con sistemas Mac o 
+la clase de tarjetas gráficas integradas GMA 950.
+
+
+Tarjetas compatibles
+---------------------
+
+Serie NVIDIA GeForce
+  FX 5900, FX 5950
+  6200, 6500, 6600, 6800,
+  7200, 7300, 7600, 7800, 7900, 7950
+  8400, 8500, 8600, 8800
+  9600, 9800, GTX 260, GTX 280
+
+Serie ATI Radeon(TM)
+  9500, 9600, 9800
+  X300, X600, X700, X800, X850
+  X1300, X1600, X1800, X1900, X1950
+  2400, 2600, 2900,
+  3450, 3650, 3850, 3870,
+  4850
+
+Intel(R) Extreme Graphics
+  Windows: GMA 950, serie GMA 3x00
+  Mac OS X: GMA X3100
+  
+Es posible que las versiones de estos chipsets funcionen, pero lo harán de
+un modo comparativamente lento. Las tarjetas no integradas que estén instaladas
+en las ranuras PCI simples (no las PCIe o PCIx o AGP), como algunas
+variantes de la GeForce FX, rendirán mal. Los chipset integrados
+de Intel que incluyan componentes con frecuencias de reloj reducidas, como los 945GU, GML
+y GMS, no rendirán adecuadamente.
+
+Los chipsets integrados, como las variantes con TurboCache de ATI Xpress 200 y NVIDIA,
+se seleccionarán en ajustes bajos, pero
+el funcionamiento debería ser satisfactorio.
+
+Ten en cuenta que intentar jugar usando el hardware de vídeo 
+que no aparezca en la lista anterior puede suponer una 
+pérdida de rendimiento, problemas con los gráficos o que 
+el juego no funcione en absoluto.
+
+La serie NVIDIA GeForce FX no es compatible con Vista.
+
+
+Problemas conocidos con el hardware
+====================
+
+Puede que el juego no responda mientras pintas a una criatura
+o después de pasar del modo Pantalla completa al modo Ventana o viceversa.
+Para arreglarlo, actualiza los controladores gráficos en la página web del proveedor.
+
+Al cambiar la resolución de pantalla, puede ocurrir que 
+el monitor no responda con la resolución que dice tener,
+mostrando una pantalla negra o distorsionada. En este caso, 
+cambia al modo de ventana, modifica la resolución y 
+actualiza la frecuencia con un valor menor.
+
+La aceleración de audio por hardware no es compatible.
+
+Windows Vista:
+Al iniciar el juego, puede que algunos usuarios de Microsoft Vista 
+reciban el aviso de que se está agotando el espacio de direcciones, junto 
+con un vínculo a la Knowledge Base de Microsoft. Si ves este 
+mensaje, se te recomienda que sigas las instrucciones 
+y vayas a la página web referida en él para actualizar 
+tu equipo.
+
+Turtle Beach Montego DDL: no es compatible con la opción de sonido envolvente 5.1. 
+Dicho modo sigue disponible en las opciones, pero el sonido 
+será estéreo (de dos canales) en todos los altavoces.
+
+Para MAC OS X:
+En sistemas Mac OS X con tarjetas NVIDIA de menos de 
+256 MB de VRAM, puede ser necesario reducir la calidad de los gráficos 
+mediante los métodos descritos en Resolución de problemas 
+para poder mejorar la calidad de los gráficos.
+
+Si el juego se ejecuta en un Mac Book Pro con la duplicación de pantalla 
+activada, asegúrate de seleccionar una resolución compatible, 
+tanto con la pantalla interna como con la externa. 
+Para evitar este problema se puede establecer que la LCD 
+interna sea el monitor principal antes de activar la duplicación 
+de pantalla. Así se obtendrán las resoluciones 
+apropiadas.
+
+A veces, el sonido del juego se detiene cuando los auriculares 
+se conectan después de que el juego se haya iniciado. Para evitar 
+que esto ocurra, asegúrate de conectar los auriculares 
+a tu Mac antes de iniciar el juego.
+
+Si tienes problemas con la tasa de cuadros y utilizas tarjetas ATI X1600
+o X1900, reduce el ajuste "Calidad de la iluminación" al nivel bajo.
+
+
+Consejos sobre el rendimiento
+=============================
+
+Cuando inicies Spore por primera vez, el juego 
+seleccionará automáticamente las opciones más apropiadas para tu 
+tarjeta gráfica, CPU y tarjeta de sonido. Para mejorar el rendimiento, 
+utiliza el panel de control de opciones para bajar la configuración a 
+"media" o "baja".
+
+También puedes mejorar el rendimiento del juego si
+bajas la resolución del juego a 1024 x 768
+u 800 x 600. No es recomendable que utilices
+la resolución a pantalla completa si tu monitor es de 
+1600 o más en horizontal.
+
+Spore es un juego en 3D en tiempo real que le exige al equipo 
+la mayor parte de su capacidad de proceso. Si hay otros programas ejecutándose 
+en segundo plano, el juego puede ralentizarse o funcionar a trompicones. 
+Para obtener los mejores resultados, asegúrate de que todos los programas en 
+segundo plano estén cerrados mientras juegas a Spore.
+
+El rendimiento suele ser mejor a pantalla completa que en 
+ventana.
+
+
+Notas
+=====
+
+Mensajes de error de Spore
+--------------------
+
+1000:  Ya se está ejecutando otra instancia de Spore. Sal de ella o ciérrala primero.
+
+
+1001:  El juego no encuentra una manera válida de mostrarse.
+       Asegurate de que la pantalla esta ajustada al modo de 32bits.
+
+1002:  Direct X no se ha instalado, Reinstala el juego, o intala la última version de Direct X
+       
+1004:  No se encuentra el directorio del juego, por favor, reinstala la aplicacion
+
+1010   Se recomienda actualizar los drivers de la tarjeta gráfica para evitar problemas de 
+       compatibilidad. Normalmente puedes hacer esto accediendo a la página web del fabricante.
+       Las páginas web de NVIDIA, ATI e Intel son las siguientes:
+       
+         http://www.nvidia.com/content/drivers/drivers.asp
+         http://ati.amd.com/support/driver.html
+         http://support.intel.com/support/graphics/
+
+1011:  Es muy recomendable que actulize su targeta gráfica para evitar serios problemas.
+
+1012:  El juego tiene problemas con esta tarjeta debido a que esta el modo multi GPU. 
+       Por favor, actualize los drivers o desactive la opcion de multi GPU desde el panel de control 
+       de el fabricante.
+
+2001:  El sistema esta por debajo de las especificaciones mínimas, por lo tanto no puede arrancar.
+
+2002:  El sistema esta por debajo de las especificaciones mínimas, puede experimentar problemas con el video, audio
+       o la velocidad de reproducción del videojuego.
+       
+2003:  Estas corriendo una versión de Vista que tiene problemas con targetas de video que poseen una gran cantidad
+       de memoria virtual (VRAM). Por favor, actualiza tu windows con el Service Pack 1 (SP1) o instala el parche
+       correspondiente desde:
+
+         http://support.microsoft.com/default.aspx/kb/940105
+
+ 
+
+
+
+Ayuda online
+-----------
+
+El servicio técnico de Electronic Arts para Norteamérica está en 
+
+  http://support.ea.com 
+
+y en 
+
+  http://eusupport.ea.com 
+  
+para los usuarios europeos. 
+
+Utiliza las herramientas de búsqueda para encontrar la información necesaria. La 
+Knowledge Base se actualiza cuando hay nueva información, 
+así que no dejes de visitarla para conocer las últimas novedades.
+
+
+Instalación del juego
+-------------------
+
+Windows (usuarios de disco):
+ * Introduce el disco en el lector y sigue las instrucciones que aparecerán en pantalla.
+ * Una vez el juego se haya instalado, búscalo en el menú 
+   Inicio para iniciarlo. 
+ * En Windows Vista™, los juegos se encuentran en el menú Inicio > Juegos. En 
+   versiones anteriores de Windows™, se encuentran en el menú Inicio > Programas (o Todos los programas).
+
+Windows (usuarios de EA Store):
+ * Tras descargar el juego con el gestor de descargas de EA, haz clic en el icono 
+   de instalación que aparecerá y sigue las instrucciones que se mostrarán en pantalla.
+ * Inicia el juego (después de instalarlo) directamente desde el gestor de descargas de EA.
+
+En Windows Vista, si se utiliza el estilo de menú clásico, los juegos 
+se encuentran en el menú Inicio > Programas > Juegos > Explorador de juegos.
+
+Para MAC OS X:
+ * Inserta el disco del juego en tu unidad de CD/DVD-ROM. En el escritorio aparecerá el icono 
+   que representa el disco del juego. Haz doble
+   clic en el icono para abrir el programa de inicio.
+ * Selecciona el icono del instalador del juego, en la parte inferior del 
+   programa de inicio, para que aparezca el menú de instalación. 
+ * Sigue las instrucciones que aparecen en pantalla para completar la 
+   instalación.
+
+
+Instalación de los productos de descarga digital
+-------------------------------------------------------------------
+
+Ponte en contacto con el distribuidor digital a través del que compraste 
+este juego para conseguir las instrucciones de instalación o de 
+descarga y reinstalación de otra copia del juego.
+
+Nota: si quieres información adiciona sobre tu juego además de 
+consejos y parches, visita http://www.ea.com o 
+http://www.eastore.com.
+
+
+Desinstalación del juego
+---------------------
+
+Windows XP:
+ * Abre Agregar o quitar programas en el Panel de Control.
+ * Haz clic en Cambiar o quitar programas.
+ * Haz clic en la entrada del programa SPORE.
+ * Haz clic en el botón Quitar. 
+ * Sigue las instrucciones que aparecen en pantalla para completar la 
+   desinstalación.
+
+Windows Vista:
+ * Abre el panel de control de Programas y funciones. 
+ * Haz clic en la entrada del programa SPORE. 
+ * Haz clic en el botón Desinstalar. 
+ * Sigue las instrucciones que aparecen en pantalla para completar la 
+   desinstalación.
+
+Para MAC OS X:
+ * Asegúrate de haber entrado con una cuenta que tiene 
+   derechos de administración.
+ * Borra la carpeta SPORE de la carpeta Aplicaciones.
+ * Habrá más archivos en 
+   /Users/<Username>/Library/Preferences/Spore Preferences.
+ * Para eliminar el contenido creado por Spore, elimina la carpeta
+   /Usuarios/<Nombre del usuario>/Documentos/My Spore Creations
+
+Ubicación en el disco
+-----------------
+
+Spore guarda tus criaturas, películas, imágenes 
+y avatares animados en la carpeta "Mis creaciones Spore".
+La ubicación de esta carpeta depende de tu versión del sistema operativo:
+
+Windows XP:
+* "Mis creaciones Spore" está en la carpeta "Mis Documentos". 
+
+Windows Vista:
+* "Mis creaciones Spore" está en la carpeta "Documentos".
+
+Para MAC OS X:
+* "Mis creaciones Spore" está en la carpeta "Documentos".
+
+Además, Spore guarda un registro de los recursos gráficos del contenido
+que has descargado. Si tienes poco espacio en el disco duro, 
+prueba a reducir el tamaño del registro en las opciones de gráficos.
+
+
+Controles y atajos
+==================
+
+- Creador de criaturas -
+
+Haz clic izquierdo para seleccionar partes y moverlas.
+
+Haz clic izquierdo para mover los asideros con forma de flecha
+de la parte seleccionada, lo que cambiará su forma.
+
+Haz clic izquierdo y arrastra partes fuera de la criatura para venderlas.
+
+Pon el cursor encima de una parte o de un segmento de la columna vertebral y usa la rueda del ratón 
+para redimensionarla. O selecciona la parte y utiliza las 
+teclas de cursor arriba y abajo.
+
+Mantén pulsada la tecla Alt mientras haces clic en una parte y la arrastras para copiarla. 
+En los sistemas Mac, utiliza Opción en lugar de Alt.
+
+Haz clic izquierdo y arrastra directamente la columna vertebral 
+para cambiar su forma. Usa las teclas del cursor para alargarla o acortarla.
+
+Haz clic en la piel del torso (no en la columna vertebral) para moverla.
+
+Mantén pulsado Ctrl mientras arrastras el segmento de una extremidad para unirlo 
+a otra.
+
+Mantén pulsado el tabulador con una parte seleccionada para mostrar 
+los asideros de rotación avanzados.
+
+
+- Creador de edificios -
+
+Para mover una parte verticalmente, mantén pulsada la tecla Ctrl mientras haces clic en 
+una parte y la recolocas con el ratón.
+
+Para mover una parte sobre la superficie de la tarima, mantén pulsada la tecla 
+Mayús mientras haces clic en una parte y la recolocas con el ratón.
+
+
+- Creador de vehículos -
+
+Las partes de la carrocería y la cabina se alinean automáticamente con el centro del vehículo.
+
+Todo vehículo tiene un límite de altura y anchura. 
+
+Para mover el vehículo entero, mantén pulsada la tecla Mayús mientras mueves el ratón. 
+
+
+- Cámara -
+
+Haz clic izquierdo en el fondo para mover la cámara.
+
+Si estás en prueba de movimiento, la rueda del ratón acerca y aleja la cámara.
+
+En los modos Construcción y Pintura, pulsa la tecla Mayús y usa la rueda del ratón
+para acercar y alejar la cámara. 
+
+Las teclas "," y "." giran la cámara.
+Las teclas "+" y "-" acercan y alejan la imagen.
+
+- Generales -
+
+Ctrl + N    Empezar una nueva criatura
+Ctrl + Y    Rehacer
+Ctrl + Z    Deshacer
+Ctrl + S    Guardar criatura
+Ctrl + H    Mostrar u ocultar la interfaz
+H o "ç"       Abrir y cerrar la guía de Spore™.
+B            Abrir la Sporepedia™
+
+Windows:
+Alt + Intro    Alternar entre los modos de ventana y pantalla completa.
+
+Para MAC OS X:
+Manzana + Intro: Cambia entre modo de ventana y pantalla completa.
+Manzana + Tabulador: Minimiza el juego cuando está en modo pantalla completa.
+
+Ten en cuenta que cuando el juego se minimiza no entra en modo de pausa, 
+sino que sigue funcionando de fondo.
+
+
+- Uso del botón derecho en Mac OS X -
+
+Este juego tiene ciertas características que requieren el uso del botón derecho.
+Si tienes un Apple Mighty Mouse, podrás activar el botón derecho 
+en Preferencias del Sistema->Teclado y ratón. Cambia 
+la opción de clic derecho a botón secundario.
+
+Para simular la pulsación de ambos botones simultáneamente con el 
+ratón Apple Mighty Mouse, mantén pulsado el botón de desplazamiento o haz clic con el botón 
+izquierdo del ratón mientras mantienes pulsadas las teclas manzana y Opción.
+
+Además, la mayoría de los ratones USB para PC son compatibles con Macintosh. 
+Los botones izquierdo y derecho de estos ratones se detectan 
+en cuanto se enchufan y funcionan correctamente.
+
+Si tienes un ratón de Apple con un único botón o un Mac Book 
+Pro con trackpad, podrás emular el botón derecho del ratón 
+manteniendo pulsada la tecla de la manzana al hacer clic en el botón del 
+ratón.
+
+Para simular la pulsación de ambos botones simultáneamente con un 
+ratón de un solo botón, mantén pulsadas las teclas manzana y Opción mientras 
+haces clic con el botón del ratón.
+
+Opciones de línea de comandos
+--------------------
+
+Se admiten las siguientes opciones de línea de comandos:
+  -w     Funcionar en el modo Ventana.
+  -f     Funcionar en el modo Pantalla completa.
+  -r:<ancho>x<alto> 
+         Funcionar en la resolución especificada.
+  -safe  Imponer un conjunto mínimo de opciones de configuración
+         sin cargar ningún plug-in opcional.
+
+
+Trucos
+------
+
+Para introducir trucos en el juego, antes tienes que abrir la consola de comandos 
+pulsando a la vez Ctrl + Mayús + C. Pulsa Intro para cerrar 
+la consola de comandos. Algunos de los trucos que puedes 
+usar aquí son los siguientes:
+
+help: Da una lista de todos los trucos del juego.
+help [nombre del truco]: muestra información específica sobre el truco.
+quit: Sale del juego.
+
+
+Notas acerca de la compatibilidad
+===================
+
+Spore está diseñado para funcionar con tarjetas gráficas y de sonido 
+compatibles con Windows XP. Los fabricantes de las tarjetas proporcionan 
+los controladores correspondientes, lo cual puede provocar problemas de 
+compatibilidad que escapan a nuestro control.
+
+Si experimentas algún problema con ellas, siempre es recomendable 
+que obtengas e instales los controladores más recientes 
+para tu hardware. La mayoría de proveedores de hardware tienen los controladores 
+más recientes disponibles para descargar en sus páginas web.  
+
+
+En la página http://www.spore.com hay más información sobre los problemas técnicos conocidos.
+
+¡Gracias por jugar a Spore!
+El equipo de "Spore"
+MAXIS
+
+

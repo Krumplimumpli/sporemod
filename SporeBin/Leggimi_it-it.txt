@@ -1,0 +1,385 @@
+﻿File Leggimi di SPORE(TM)
+(c) 2008 Electronic Arts Inc. Tutti i diritti riservati.
+
+MAXIS(TM) 01/09/08
+Versione 1.0
+
+== Sommario ==
+Note generali
+Requisiti di sistema
+Problemi hardware conosciuti
+Consigli per migliorare le prestazioni
+Note
+Comandi e tasti di scelta rapida
+Note di compatibilità
+
+
+NOTE GENERALI
+=============
+
+Spore ti dà il benvenuto! Ci auguriamo che ti diverta molto a giocare. Per le informazioni più aggiornate sul gioco e i prodotti associati, visita il sito all'indirizzo:
+
+                 http://www.spore.com
+
+
+REQUISITI DI SISTEMA
+====================
+
+Spore richiede almeno quanto segue:
+
+WINDOWS XP
+ * Processore Pentium 4 a 2 GHz o equivalente
+ * 512 MB di RAM
+ * Scheda video con almeno 128 MB che supporti Pixel Shader 2.0
+ * La versione più recente di DirectX 9.0c
+ * Microsoft Windows XP Service Pack 1
+ * Almeno 4 GB di spazio su disco rigido e 1 GB di spazio aggiuntivo per le proprie creazioni
+
+WINDOWS VISTA
+ * Processore Pentium 4 a 2 GHz o equivalente
+ * 768 MB di RAM
+ * Scheda video con almeno 128 MB che supporti Pixel Shader 2.0
+ * Almeno 4 GB di spazio su disco rigido e 1 GB di spazio aggiuntivo per le proprie creazioni
+
+Per i computer dotati di chipset grafici integrati sotto Windows, il gioco richiede almeno:
+ * Chipset integrato di Intel – 945GM o superiore
+ * Processore a doppio nucleo a 2,6 GHz (o Core 2 Duo a 1,8 GHz) o equivalente
+ * 768 MB di RAM
+
+MAC OS X
+ * Mac OS X 10.5.3 Leopard o superiore
+ * Processore Intel Core Duo
+ * 1024 MB di RAM
+ * ATI X1600 o NVIDIA 7300 GT con 128 MB di RAM video, oppure Intel GMA X3100 integrata
+ * Almeno 4 GB di spazio su disco rigido e 1 GB di spazio aggiuntivo per le proprie creazioni
+
+Il gioco non funziona sui sistemi Macintosh con processore PowerPC G3/G4/G5 né con la classe di schede video integrate GMA 950.
+
+
+Schede video supportate
+-----------------------
+
+NVIDIA serie GeForce
+   FX 5900, FX 5950
+   6200, 6500, 6600, 6800
+   7200, 7300, 7600, 7800, 7900, 7950
+   8400, 8500, 8600, 8800
+   9600, 9800, GTX 260, GTX 280
+
+ATI serie Radeon(TM)
+   9500, 9600, 9800
+   X300, X600, X700, X800, X850
+   X1300, X1600, X1800, X1900, X1950
+   2400, 2600, 2900
+   3450, 3650, 3850, 3870
+   4850
+
+Intel(R) Extreme Graphics
+   Windows: GMA 950, serie GMA 3x00
+   Mac OS X: GMA X3100
+
+Le versioni di questi chipset per computer portatili potrebbero funzionare, ma a velocità comparativamente ridotta. Le schede autonome installate negli slot PCI semplici (ovvero non PCIe, PCIx o AGP), come alcune varianti della GeForce FX, avranno prestazioni modeste. I chipset integrati di Intel con componenti in underclock (come 945GU, GML e GMS) non funzioneranno adeguatamente.
+
+I chipset integrati (come ATI Xpress e le varianti di NVIDIA TurboCache) richiedono bassi livelli delle impostazioni grafiche, ma dovrebbero funzionare in modo soddisfacente.
+
+Usando hardware video non citato nell'elenco precedente, il gioco potrebbe avere prestazioni ridotte, problemi grafici o non funzionare affatto.
+
+Le schede NVIDIA serie GeForce FX non sono supportate sotto Vista.
+
+Problemi hardware conosciuti
+----------------------------
+
+Il gioco può non reagire ai comandi mentre si colora una creatura, oppure dopo il passaggio tra la modalità a schermo intero e quella in finestra. Per risolvere il problema, scarica i driver più aggiornati dal sito web del produttore della tua scheda video.
+
+In alcuni casi, modificando le dimensioni dello schermo il monitor potrebbe risultare incompatibile con una risoluzione che dovrebbe supportare, mostrando un'immagine distorta o nessuna immagine. Qualora ciò accadesse, premi Alt + Invio per passare alla modalità in finestra e imposta valori inferiori riguardo alla risoluzione e alla frequenza di aggiornamento.
+
+L'accelerazione audio hardware non è supportata.
+
+WINDOWS VISTA
+Durante l'avvio del gioco, alcuni utenti di Microsoft Windows Vista potrebbero veder apparire un avviso sull'esaurimento dello spazio di indirizzamento, accompagnato da un collegamento alla Knowledge Base di Microsoft. Qualora incorressi in tale avviso, sarebbe consigliabile seguire le istruzioni e visitare il sito all'indirizzo specificato nel messaggio per aggiornare il tuo sistema.
+
+Turtle Beach Montego DDL – La modalità Surround 5.1 non è supportata. Pur essendo disponibile fra le opzioni, il suono sarà stereofonico (2 canali) su tutti gli altoparlanti.
+
+MAC OS X
+Sui sistemi Mac OS X dotati di schede video NVIDIA con meno di 256 MB di VRAM, può essere necessario ridurre la qualità grafica sfruttando il metodo descritto nella sezione di risoluzione dei problemi generali per ottenere una visualizzazione più fluida.
+
+Se stai giocando su un Mac Book Pro con un monitor esterno, seleziona una risoluzione supportata da entrambi gli schermi. Per evitare problemi, controlla che lo schermo LCD integrato sia quello principale prima di attivare il monitor esterno, così vedrai apparire l'elenco delle risoluzioni giuste.
+
+Occasionalmente, l'audio si può interrompere se si collegano le cuffie dopo aver avviato il gioco. Per evitarlo, assicurati che le cuffie siano già collegate al tuo Mac prima di avviare il gioco.
+
+Se hai problemi di lentezza della grafica con le schede video ATI X1600 e X1900, imposta "Qualità dell'illuminazione" al livello basso.
+
+
+CONSIGLI PER MIGLIORARE LE PRESTAZIONI
+======================================
+
+Quando avvii Spore per la prima volta, il gioco configura automaticamente le opzioni più appropriate al tuo processore e alle schede video e audio. Per migliorare le prestazioni, imposta valori medi o bassi nel pannello di controllo delle opzioni.
+
+Puoi provare anche a ridurre la risoluzione del gioco a 1024x768 oppure a 800x600. Non è consigliabile l'esecuzione a schermo intero se la risoluzione del tuo monitor ha un'altezza o larghezza uguale o superiore a 1600 pixel.
+
+Spore è un gioco 3D in tempo reale che assorbe la gran parte della potenza di calcolo del tuo sistema. Altri programmi eventualmente aperti in background potrebbero rallentarlo o causare brevi interruzioni. Per ottenere i migliori risultati, chiudi tutte le applicazioni in background prima di giocare a Spore.
+
+Le prestazioni a schermo intero sono generalmente migliori rispetto a quelle in finestra.
+
+
+NOTE
+====
+
+Messaggi di errore
+------------------
+
+Di seguito sono riportati alcuni messaggi di errore e di avvertimento in inglese che potrebbero essere visualizzati dal gioco assieme a suggerimenti per risolvere i problemi:
+
+1000:  Another instance of Spore is already running. Please quit or kill it
+       first.
+       (Un'altra istanza di Spore è già in esecuzione. Chiudila o esci.)
+
+1001:  The game cannot find any valid display modes. Please
+       ensure your display is set to 32 bits.
+       (Il gioco non riesce a trovare alcuna modalità di visualizzazione valida.
+       Assicurati che lo schermo sia impostato a 32 bit.)
+
+1002:  DirectX is not installed. Please install it, or reinstall
+       the game.
+       (DirectX non è installato. Installalo o reinstalla il gioco.)
+
+1004:  The game cannot find its data directory. Please reinstall
+       the game.
+       (Il gioco non riesce a trovare la cartella dei dati. Reinstallalo.)
+
+1010:  It is recommended that you update your graphics card
+       drivers to avoid compatibility issues. Generally you can
+       do this by going to the website of the hardware manufacturer
+       for your card. The sites for NVIDIA, ATI, and Intel are:
+       (Si consiglia l'aggiornamento dei driver della scheda video per
+       evitare problemi di compatibilità. Di solito è possibile reperire i
+       driver nel sito web del produttore hardware della scheda. Gli indirizzi
+       dei siti di NVIDIA, ATI e Intel sono:)
+
+         http://www.nvidia.com/content/drivers/drivers.asp
+         http://ati.amd.com/support/driver.html
+         http://support.intel.com/support/graphics/
+
+1011:  It is required that you upgrade your graphics card drivers
+       to avoid serious issues with the game. Please see above.
+       (È richiesto l'aggiornamento dei driver della scheda video per
+       evitare seri problemi con il gioco. Vedi sopra.)
+
+1012:  The game has issues with this card in multi GPU mode. Please
+       either update your drivers, or disable multi GPU mode from
+       the vendor's control panel.
+       (Il gioco segnala dei problemi con la scheda video usata in modalità
+       a GPU multipla. Aggiorna i driver o disabilita la modalità a GPU
+       multipla dal pannello di controllo del produttore.)
+
+2001:  The system is below our min spec, and we cannot run at all.
+       (Il sistema non soddisfa i requisiti minimi e il gioco non può
+       funzionare.)
+
+2002:  The system is below our min spec, and you may experience
+       graphical, performance, or audio issues.
+       (Il sistema non soddisfa i requisiti minimi e potrebbero verificarsi
+       problemi audio, video e di prestazioni.)
+
+2003:  You are running a version of Vista that has issues with
+       graphics cards with large amounts of VRAM. Please either
+       update to SP1, or install the corresponding fix from:
+       (La versione di Vista in esecuzione non è compatibile con le schede
+       video dall'elevata disponibilità di VRAM. Aggiornala con l'SP1 o
+       installa il pacchetto correttivo disponibile all’indirizzo:)
+
+         http://support.microsoft.com/default.aspx/kb/940105
+
+Guida online
+------------
+
+Il sito del supporto clienti di Electronic Arts si trova all'indirizzo http://support.ea.com per gli utenti del Nord America e http://eusupport.ea.com per gli utenti dell'Europa. Usa gli strumenti di ricerca per trovare le informazioni di cui hai bisogno. La base di conoscenza viene aggiornata man mano che arrivano nuove informazioni, quindi ricorda di visitarla per essere al corrente delle ultime novità e variazioni.
+
+Installare il gioco
+-------------------
+
+Windows (da supporto ottico):
+ * Inserisci il supporto ottico nel relativo lettore e segui le istruzioni su schermo.
+ * Una volta installato il gioco, puoi avviarlo selezionando la relativa voce nel menu Start.
+ * Con Windows Vista(TM) i giochi si trovano nel menu Start > Giochi, mentre con le versioni precedenti di Windows(TM) si trovano nel menu Start > Programmi (o Tutti i programmi).
+
+Windows (da EA Store):
+ * Dopo avere scaricato il gioco da EA Download Manager, clicca sull'icona di installazione che appare e segui le istruzioni su schermo.
+ * Una volta installato il gioco, avvialo direttamente da EA Download Manager.
+
+Nel menu Start classico di Windows Vista, i giochi sono accessibili attraverso il percorso Start > Programmi > Giochi, con cui si fa apparire il relativo menu di esplorazione.
+
+Mac OS X:
+ * Inserisci il supporto ottico di gioco nel relativo lettore. Sulla scrivania apparirà l'icona di un CD che rappresenta il disco di gioco. Cliccaci sopra due volte per aprire il programma di avvio del gioco.
+ * Seleziona l'icona del programma di installazione, in fondo alla finestra di avvio, per richiamare il menu di installazione.
+ * Segui le istruzioni su schermo per completare l'installazione.
+
+Installazione del download digitale
+-----------------------------------
+
+Contatta il rivenditore digitale attraverso cui hai acquistato il gioco per sapere come installarlo o scaricarne e reinstallarne un'altra copia.
+
+Nota: se desideri informazioni aggiuntive su un gioco oppure consigli e patch, visita http://www.ea.com o http://www.eastore.com.
+
+Rimuovere il gioco
+------------------
+
+Windows XP:
+ * Apri "Installazione applicazioni" nel pannello di controllo.
+ * Clicca su "Cambia/Rimuovi programmi".
+ * Clicca sulla voce corrispondente a SPORE(TM).
+ * Clicca sul pulsante "Rimuovi".
+ * Segui le istruzioni su schermo per completare la rimozione.
+
+Windows Vista:
+ * Apri "Programmi e funzionalità" nel pannello di controllo.
+ * Clicca sulla voce corrispondente a SPORE(TM).
+ * Clicca sul pulsante "Rimuovi".
+ * Segui le istruzioni su schermo per completare la rimozione.
+
+Mac OS X:
+ * Assicurati di usare un utente con privilegi di amministratore.
+ * Elimina la cartella "SPORE" dalla cartella "Applicazioni".
+ * I file aggiuntivi si possono trovare sotto /Users/<nome_utente>/Library/Preferences/Spore Preferences.
+
+ * Per eliminare il materiale creato da Spore, elimina la cartella
+/Users/<nome_utente>/Documenti/Creazioni Spore
+
+Cartelle sul disco rigido
+-------------------------
+
+Spore conserva le creature, i filmati, le immagini e gli avatar animati in una cartella chiamata "Creazioni Spore". La sua posizione precisa dipende dal sistema operativo che usi:
+
+Windows XP:
+* "Creazioni Spore" si trova nella cartella "Documenti".
+
+Windows Vista:
+* "Creazioni Spore" si trova nella cartella "Documenti".
+
+Mac OS X:
+* "Creazioni Spore" si trova nella cartella "Documenti".
+
+Spore prevede anche una memoria tampone per le risorse che hai scaricato. Se ti resta poco spazio sul disco rigido, prova a ridurre le sue dimensioni nelle opzioni grafiche.
+
+
+COMANDI E TASTI DI SCELTA RAPIDA
+================================
+
+- Creatore di creature (Creature Creator) -
+
+Clicca con il sinistro per selezionare e spostare le parti.
+
+Clicca con il sinistro per spostare gli agganci a forma di freccia sulla parte attualmente selezionata, modificandone la forma.
+
+Clicca con il sinistro e trascina via le parti dalla creatura per rivenderle.
+
+Sposta il puntatore del mouse su una parte o una vertebra e usa la rotellina del mouse per modificarne le dimensioni. In alternativa, seleziona la parte e usa i tasti freccia su e giù.
+
+Tieni premuto Alt mentre clicchi e trascini una parte per copiarla. Su molti sistemi Mac, si usa il tasto Opzione al posto del tasto Alt.
+
+Clicca con il sinistro e trascina direttamente sulla spina dorsale per modificarne la forma. Usa le frecce per allungarla o accorciarla.
+
+Clicca con il sinistro sulla pelle del torso (non sulla spina dorsale) per spostarlo.
+
+Tieni premuto Ctrl mentre trascini un segmento di arto per attaccarlo a un altro arto.
+
+Tieni premuto Tab quando una parte è selezionata per fare apparire ulteriori agganci di rotazione.
+
+
+- Creatore di edifici -
+
+Per spostare verticalmente una parte, clicca tenendo premuto Ctrl e poi spostala usando il mouse.
+
+Per spostare una parte sulla superficie del piedistallo, clicca tenendo premuto Maiusc e poi spostala usando il mouse.
+
+
+- Creatore di veicoli -
+
+Le parti delle categorie corpo e abitacolo vengono allineate automaticamente con il centro del veicolo.
+
+Non esistono limiti di altezza e larghezza per i veicoli.
+
+Per spostare l'intero veicolo, clicca tenendo premuto Maiusc e poi muovi il mouse.
+
+
+- Visuale -
+
+Clicca con il sinistro sullo sfondo per spostare la visuale.
+
+Nella modalità Prova, la rotellina del mouse regola lo zoom in avanti e indietro.
+
+Nelle modalità Costruisci e Colora, il tasto Maiusc e la rotellina del mouse regolano lo zoom in avanti e indietro.
+
+, e .                           Ruota la visuale
++ e -                           Zoom in avanti e indietro
+
+- Generale -
+
+Ctrl + N                        Inizia
+Ctrl + Y                        Ripristina
+Ctrl + Z                        Annulla
+Ctrl + S                        Salva
+Ctrl + H                        Mostra o nascondi l'interfaccia utente
+H o ù                           Apri e chiudi la guida di Spore
+B                               Richiama la Sporepedia(TM)
+
+Windows:
+Alt + Invio                     Passa dall'esecuzione in una finestra a quella a
+                                schermo intero.
+
+Mac OS X:
+Comando + Invio:                Passa dall'esecuzione in una finestra a quella a
+                                schermo intero.
+Comando + Tab:                  Riduce a icona il gioco quando è a schermo
+                                intero.
+
+Ricorda che quando il gioco è ridotto a icona non viene messo in pausa, ma continua a funzionare in background.
+
+
+- Funzioni del pulsante destro del mouse con Mac OS X -
+
+Il gioco contiene alcune funzioni che si attivano con il pulsante destro. Se hai un Mighty Mouse di Apple, puoi attivare il pulsante destro selezionando "Preferenze di sistema" e quindi "Tastiera e mouse". Nel menu per la funzione del pulsante destro, seleziona "Pulsante secondario".
+
+Per emulare la pressione simultanea di entrambi i pulsanti usando il Mighty Mouse di Apple, tieni premuto il pulsante di scorrimento o premi il pulsante sinistro mentre tieni premuti i tasti Comando e Opzione.
+
+Il Macintosh supporta inoltre molti mouse USB per PC. Quando vengono collegati, i pulsanti sinistro e destro vengono rilevati e funzionano correttamente.
+
+Se hai un vecchio mouse Apple con un solo pulsante o un Mac Book Pro che dispone del solo Track Pad, puoi emulare il pulsante destro tenendo premuto il tasto Comando mentre clicchi.
+
+Per emulare la pressione simultanea di entrambi i pulsanti usando un mouse con un solo pulsante, tieni premuti i tasti Comando e Opzione mentre clicchi.
+
+
+Opzioni in linea di comando
+---------------------------
+
+Sono supportate le seguenti opzioni in linea di comando:
+  -w                            Esegui in una finestra
+  -f                            Esegui a schermo intero
+  -r:<larghezza>x<altezza>      Avvia alla risoluzione specificata
+  -safe                         Imposta un set minimo di opzioni di
+                                configurazione senza caricare plugin opzionali
+
+Trucchi
+-------
+
+Per inserire dei trucchi nel gioco, apri la console di comando premendo simultaneamente Ctrl + Maiusc + C; premi il tasto Invio per chiudere la console. Alcuni trucchi che possono essere inseriti sono:
+
+help: elenca tutti i trucchi accettati dal gioco
+help [nome del trucco]: visualizza informazioni specifiche sul trucco
+quit: esci dal gioco
+
+
+NOTE DI COMPATIBILITÀ
+=====================
+
+Spore è stato progettato per funzionare con schede video e audio compatibili con Windows XP. I relativi driver sono forniti dai produttori e possono introdurre problemi di compatibilità al di fuori del nostro controllo.
+
+In caso di problemi, è sempre consigliabile procurarsi gli ultimi driver per il proprio hardware. La maggior parte dei fornitori di hardware offre gratuitamente driver sul sito web ufficiale.
+
+Potrai trovare ulteriori informazioni sui problemi tecnici visitando il sito all'indirizzo http://www.spore.com.
+
+Grazie per aver usato Spore!
+La squadra di Spore
+MAXIS
+
+

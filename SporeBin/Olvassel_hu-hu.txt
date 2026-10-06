@@ -1,0 +1,386 @@
+﻿Olvassel a SPORE(tm) játékhoz
+(c)2008 Electronic Arts Inc. Minden jog fenntartva.
+
+MAXIS(tm) 08.09.01.
+1.0-ás verzió
+
+== Tartalom ==
+Bevezető
+Rendszerkövetelmények
+Ismert hardverproblémák
+Teljesítménytippek
+Megjegyzések
+Irányítás és gyorsbillentyűk
+Kompatibilitási jegyzetek 
+
+
+BEVEZETŐ
+===================
+
+Üdvözlünk a Spore játékban! Reméljük, örömödet leled majd benne. A játékkal és a vele kapcsolatos termékekkel kapcsolatos legfrissebb információkat a 
+
+                 http://www.spore.com
+
+honlapon találod.
+
+
+Rendszerkövetelmények
+===================
+
+A Spore futtatásához legalább a következő hardver szükséges:
+
+Windows XP esetén:
+ * 2.0 GHz P4 vagy ezzel egyenértékű processzor
+ * 512 MB RAM 
+ * 128 MB memóriájú videokártya Pixel Shader 2.0 támogatással 
+ * A DirectX 9.0c legfrissebb verziója
+ * Microsoft Windows XP Service Pack 1
+ * Legalább 4 GB szabad hely a merevlemezen plusz legalább 1 GB hely az alkotások tárolására.
+
+WINDOWS VISTA ESETÉN
+ * 2.0GHz P4 processzor vagy ezzel egyenértékű
+ * 768 MB RAM 
+ * 128 MB memóriájú videokártya Pixel Shader 2.0 támogatással
+ * Legalább 4 GB szabad hely a merevlemezen plusz legalább 1 GB hely az alkotások tárolására.
+
+Az olyan számítógépek esetén, melyek Windows alatt beépített grafikus chipkészletekkel rendelkeznek,
+a játékhoz legalább a következőkre van szükség:
+* Intel Integrated Chipset, 945GM vagy fejlettebb.
+ * 2.6 GHz Pentium D processzor, vagy 1.8 GHz Core 2 Duo, vagy ezzel egyenértékű.
+ * 768 MB RAM
+
+MAC OS X ESETÉN
+ * Mac OS X 10.5.3 Leopard vagy újabb
+ * Intel Core Duo processzor
+ * 1024 MB RAM
+ * ATI X1600 vagy Nvidia 7300 GT 128 MB video RAM-mal, vagy Intel Integrated GMA X3100
+ * Legalább 4 GB hely a merevlemezen a telepítéshez, legalább 1 GB hely az alkotások tárolására.
+
+
+ A játék nem futtatható PowerPC (G3/G4/G5) alapú Mac rendszereken, illetve a GMA 950 osztályú integrált videokártyákkal.
+
+
+Támogatott videokártyák 
+---------------------
+
+NVIDIA GeForce sorozat
+  FX 5900, FX 5950
+  6200, 6500, 6600, 6800,
+  7200, 7300, 7600, 7800, 7900, 7950
+  8400, 8500, 8600, 8800
+  9600, 9800, GTX 260, GTX 280
+
+ATI Radeon(TM) sorozat
+  9500, 9600, 9800
+  X300, X600, X700, X800, X850
+  X1300, X1600, X1800, X1900, X1950
+  2400, 2600, 2900,
+  3450, 3650, 3850, 3870,
+  4850 
+  
+Intel(R) Extreme Graphics
+ Windows: GMA 950, GMA 3x00 sorozat
+
+Mac OS X:
+  GMA X3100
+
+E chipkészletek laptopverziói működhetnek, de valószínűleg lassabban. A sima PCI helyekre (nem PCIe vagy PCIx vagy AGP) szerelt önálló kártyák, például egyes GeForce FX variánsok, gyengén fognak teljesíteni.
+
+Az integrált chipkészletek, mint az ATI Xpress és az NVIDIA TurboCache variánsai alacsony minőségi beállításokkal, de megfelelően fognak működni.
+
+Ne feledd, hogy amennyiben a játékot itt nem felsorolt videohardveren futtatod, a teljesítmény csökkenhet, grafikai problémák léphetnek fel, és a játék leállhat. 
+
+Az NVIDIA GeForce FX sorozat nem támogatott Vista alatt.
+
+
+Ismert hardverproblémák
+=======================
+
+Elképzelhető, hogy játék a teremtmény festése alatt, vagy teljes képernyős és ablakos nézet közötti váltás után nem válaszol. A probléma megoldásához frissítsd grafikai illesztőprogramodat a gyártó honlapjáról!
+
+A kijelző méretének megváltoztatásakor bizonyos esetekben előfordul, hogy a monitor nem válaszol egy elvileg támogatott felbontás kiválasztásakor, és a képernyő fekete vagy torzított képet mutat. Ebben az esetben az Alt-Enter billentyűkombináció segítségével válts át ablakos módra, majd válassz alacsonyabb felbontási és frissítési beállításokat!
+
+A hardveres gyorsítás (audio) nem támogatott.
+
+Windows Vista:
+A játék indításakor egyes Microsoft Vista felhasználók a címhely elfogyására figyelmeztető üzenetet kaphatnak, amellyel egyidejűleg a Microsoft Tudásbázisára mutató link jelenhet meg. Ha ezt tapasztalod, javasoljuk, hogy kövesd az utasításokat és keresd fel a megjelenített honlapot, hogy frissíthesd rendszeredet.
+
+A Turtle Beach Montego DDL Surround 5.1 nem támogatott.
+A mód elérhető az opciók között, de a hang minden hangszóró használatával is csak sztereó (2 csatornás) lesz.
+
+Mac OS X:
+256 MB VRAM-nál kevesebbel rendelkező NVIDIA kártyákkal felszerelt Mac OS X rendszerek esetében elképzelhető, hogy alacsonyabbra kell venned a grafika minőségét az Általános hibaelhárítás részben leírt módon a megfelelő teljesítményhez.
+
+Ha a játékot Mac Book Pro rendszeren a kijelzőtükrözés bekapcsolásával futtatod,
+olyan felbontást válassz, melyet a belső és külső kijelző egyaránt támogat. 
+A probléma úgy is megoldható, hogy megbizonyosodsz róla, hogy a belső  
+LCD a fő rendszermonitor, mielőtt bekapcsolod a kijelzőtükrözést, így a megfelelő felbontásokat kapod.
+
+Esetenként előfordulhat, hogy a játék hangja elhallgat, ha a fülhallgatók csatlakoztatása a játék megkezdése után történik. Ezt megelőzendő, gondoskodj róla, hogy a fejhallgatók csatlakozzanak a rendszerhez a játék megkezdése előtt.
+
+Ha a játék lassú, illetve szaggat ATI X1600 vagy X1900 kártyák mellett, a fényhatások minőségének beállításakor válaszd az Alacsony opciót.
+
+
+Teljesítménytippek
+===================
+
+Amikor először indítod el a Spore játékot, a játék automatikusan kiválasztja a grafikus kártyádhoz, processzorodhoz és hangkártyádhoz leginkább megfelelő beállításokat. A teljesítmény javításához a beállítások vezérlőpulton állítsd a minőséget az aktuálisnál alacsonyabbra. 
+
+A játék teljesítményét a képfelbontás 1024 x 768-ra vagy 800 x 600-ra való csökkentésével is javíthatod. Nem javasolt a teljes képernyős felbontás, ha monitorod szélessége 1600 képpont vagy több.
+
+A Spore egy valósidejű 3D játék, mely számítógéped processzorkapacitásának nagy részét igénybe veszi. A háttérben futó más alkalmazások lelassíthatják vagy elakadásokat okozhatnak. A legjobb eredmény eléréséhez érdemes bezárni minden háttéralkalmazást, amikor a Spore játékot futtatod.
+
+A játék teljes képernyős módban általában jobban fut, mint ablakos módban.
+
+
+Megjegyzések
+=============
+
+Spore hibaüzenetek
+------------------
+
+Alább néhány figyelmeztető és hibaüzenet található, melyekkel találkozhatsz a játékban, valamint
+javaslatok a problémák elhárítására.
+
+1000:  Már fut egy példány a Spore játékból. Lépj ki vagy állítsd
+	 le a másik alkalmazást!
+
+1001:  A játék nem talál érvényes megjelenítési módot. Bizonyosodj
+	 meg róla, hogy a képminőség 32 bitesre van állítva!
+
+1002:  Nincs telepítve Direct X. Telepítsd, vagy pedig telepítsd 
+	újra a játékot!
+      
+1004:  A játék nem találja az adatkönyvtárát. Telepítsd újra a játékot!
+
+1010:  Érdemes frissíteni videokártya-illesztőprogramodat a 
+	 kompatibilitási problémák elkerülése végett. Általában ezt
+	 videokártyád hardvergyártójának honlapjára látogatva teheted meg. 
+	 Az NVIDIA, az ATI és az Intel honlapcímei a következők:
+      
+         http://www.nvidia.com/content/drivers/drivers.asp
+         http://ati.amd.com/support/driver.html
+         http://support.intel.com/support/graphics/
+
+1011:  Érdemes frissíteni videokártya-illesztőprogramodat, hogy a játék
+ 	 megjelenítésével kapcsolatban ne merüljenek fel komolyabb 
+	 problémák. Lásd fentebb.
+
+1012:  A játékban problémák léptek fel ezzel a videokártyával multi GPU
+	 módban. Frissítsd az illesztőprogramokat, vagy tiltsd le a több
+	 grafikus processzor támogatását a terjesztő által adott 
+	 vezérlőprogramban!
+
+2001:  A rendszer nem felel meg a minimális rendszerkövetelményeknek, 
+	így az alkalmazás nem futtatható.
+
+2002:  A rendszer nem felel meg a minimális rendszerkövetelményeknek,
+	 ezért grafikai, teljesítménybeli vagy hangproblémák léphetnek fel.
+      
+2003:  A Vista olyan verzióját futtatod, melyben problémák vannak a nagy
+       mennyiségű VRAM-mal rendelkező grafikus kártyákkal. Frissíts SP1-re,
+	 vagy telepítsd az idevonatkozó javítást a következő címről:
+
+         http://support.microsoft.com/default.aspx/kb/940105
+
+
+Online Súgó
+------------
+
+Az Electronic Arts terméktámogatási oldala a http://support.ea.com 
+honlapon található észak-amerikai vagy a http://eusupport.ea.com címen az európai felhasználók számára. A szükséges információt a keresőeszközökkel találhatod meg. Amint elérhető új információ, a Tudásbázis frissül, ezért érdemes vissza-visszatérni térni a legfrissebb hírekért és információkért.
+
+
+A játék telepítése
+-------------------
+
+Windows (lemez használata esetén):
+* Helyezd a lemezt a meghajtóba, és kövesd a képernyőn megjelenő utasításokat!
+* A játék telepítése után a START menüből indíthatod el a játékot. 
+* Windows Vista(tm) esetén a játékok a következő útvonalon érhetőek el: Start > Játékok (Games) menü, a Windows(tm) korábbi változatai esetén ez Start > Programok (Programs) vagy Minden program (All Programs) menü.
+
+Windows (EA Store használata esetén):
+* Ha a játékot letöltötted az EA Download Manager segítségével, kattints a telepítés ikonjára, és kövesd a képernyőn megjelenő utasításokat! 
+* A játék (telepítés után) közvetlenül az EA Download Manager segítségével indítható el.
+
+Ha a klasszikus Start menü stílust választod Windows Vista alatt, a játékokat a Start > Programok > Játékok > Játéktallózó menü (Start > Programs > Games > Games Explorer menu) elérési útvonalon találod.
+
+Mac OS X:
+ * Helyezd a játéklemezt a CD/DVD-ROM meghajtóba. A lemezt jelképező CD ikon ekkor megjelenik az asztalodon. Kattints rá kétszer, hogy megnyisd a játék indítópaneljét.  
+ * Válaszd ki a játéktelepítő ikonját az indítópanel alján - ezzel behívod a telepítőmenüt. 
+ * Kövesd a képernyőn olvasható utasításokat a telepítés befejezéséhez.
+
+
+Digitálisan értékesítésített változat telepítése
+-------------------------------------------------
+
+Lépj kapcsolatba a digitális értékesítővel, akitől a játékot vásároltad, hogy tanácsot kérj a telepítést illetően, illetve hogy megtudd, milyen módon töltheted le és telepítheted újra a játék egy új példányát.
+
+Megjegyzés: A játékkal kapcsolatos további információkért, illetve javítócsomagokért és tippekért látogass el a http://www.ea.com vagy http://www.eastore.com webhelyre.
+
+
+A játék eltávolítása
+---------------------
+
+Windows XP:
+ * Nyisd meg a Programok telepítése és törlése menüt a Vezérlőpulton!
+ * Kattints a Programok módosítása vagy eltávolítása opcióra.
+ * Kattints a SPORE játékra.
+ * Kattints a Módosítás/Eltávolítás gombra. 
+ * Az eltávolítás befejezéséhez kövesd a képernyőn megjelenő utasításokat.
+
+Windows Vista:
+ * Nyisd meg a Programok és szolgáltatások menüt! 
+ * Kattints a SPORE játékra.
+ * Kattints az Eltávolítás gombra. 
+ * Az eltávolítás befejezéséhez kövesd a képernyőn megjelenő utasításokat.
+
+Mac OS X:
+ * Győződj meg arról, hogy rendszergazdai hozzáféréssel rendelkező fiókkal vagy bejelentkezve!
+ * Az Applications mappából távolítsd el a SPORE mappát.
+ * További fájlok találhatók a következő helyen:    /Users/<felhasználónév>/Library/Preferences/Spore Preferences.
+ * Ha el kívánod távolítani a Spore által létrehozott tartalmakat, töröld a   /Users/<felhasználónév>/Documents/My Spore Creations mappát.
+
+
+Elhelyezés a merevlemezen
+--------------------------
+
+A Spore a „Spóralkotások” mappában tárolja a lényeket, filmeket, képeket és animált avatarokat. A mappa elérési útvonala a használt operációs rendszertől függ:
+
+Windows XP:
+* A „Spóralkotások” mappa a „Dokumentumok” könyvtárban található. 
+
+Windows Vista:
+* A „Spóralkotások” mappa a „Dokumentumok” könyvtárban található.
+
+Mac OS X:
+* A „My Spore Creatures” mappa a „Documents” könyvtárban található.
+
+A Spore letöltött pollinációs tartalmaihoz egy grafikai eszközöket tartalmazó gyorsítótárat is létrehoz. Ha kevés a hely a merevlemezen, a grafikai beállításoknál csökkentheted a gyorsítótár méretét. 
+
+
+Irányítás és gyorsbillentyűk
+=====================
+
+- Lénylabor -
+
+A testrészek kiválasztásához és mozgatásához használd a bal egérgombot.
+
+A nyíl alakú fogantyúk mozgatásához használd a bal egérgombot, hogy módosítsd a kiválasztott testrész alakját. 
+
+A lény tagjainak leválasztásához és eladásukhoz használd a bal egérgombot.
+
+Ha egy testrész vagy gerinccsigolya fölé húzod az egérkurzort, a billentyűzet fel-le nyilaival vagy az egér görgőjének használatával módosíthatod a méretét.
+
+A gerinc formájának megváltoztatásához kattints egy csigolyára, és húzd odébb. A gerinc végén lévő nyilakkal növelheted vagy csökkentheted a gerinc hosszát.
+
+Tartsd lenyomva az Alt billentyűt, majd kattints egy testrészre és mozgasd odébb, hogy lemásold. Mac rendszereken az ALT helyett az Option billentyűt használd.
+
+A törzs mozgatásához kattints bal egérgombbal a testre (ne a gerincre).
+
+Egy végtag-darab mozgatása közben tartsd lenyomva a Ctrl billentyűt, hogy egy másik végtaghoz illeszd.  
+
+Tartsd lenyomva a Tab billentyűt, ha szeretnéd a kiválasztott testrész további forgásirányait látni.
+
+
+- Épületlabor -
+
+Egy elem függőleges mozgatásához tartsd lenyomva a Ctrl billentyűt, miközben kattintással kiválasztod és egereddel áthelyezed a kívánt elemet.
+
+Ha egy elemet át szeretnél emelni az állvány felszínén, tartsd lenyomva a Shift billentyűt, miközben kattintással kiválasztod és egereddel áthelyezed a kívánt elemet.
+
+
+- Járműlabor -
+
+A karosszéria- és pilótafülke-elemek automatikusan a jármű középvonalába kerülnak. 
+
+Minden jármű esetében számolnod kell a méretbeli korlátozásokkal. 
+
+Ha a teljes járművet szeretnéd elmozdítani, az egér mozgatása közben tartsd lenyomva a Shift billentyűt. 
+
+
+- Kamera -
+
+A bal egérgombbal a háttérre kattintva forgathatod a kamerát.
+
+Járáspróba módban az egér görgője közelíti és távolítja a kamera nézetét. 
+
+Szerkesztés és festés módban a Shift és az egérgörgő együttes használata közelíti és távolítja a kamerát. 
+
+, és .     Kamera forgatása
++ és -     Közelítés és távolítás
+
+- Általános -
+
+Control-N    Új lény kezdése
+Control-Y    Újra
+Control-Z    Visszavonás
+Control-S    Lény mentése
+Control-H    Felhasználói felület elrejtése vagy megjelenítése
+H vagy ü     Spóre Súgó megnyitása vagy bezárása 
+B            Spóropédia megjelenítése
+
+Windows:
+Alt-Enter    Váltás ablakos és teljes képernyős megjelenítés között.
+
+Mac OS X:
+
+Command + Return:  Váltás ablakos és teljes képernyős megjelenítés között.
+Command + Tab:	 Minimalizálja a teljes képernyős játékot.
+
+Ne feledd, hogy amikor a játék minimalizálva van, nem áll meg, hanem továbbra is fut a háttérben.
+
+- A jobb egérgomb funkciói -
+
+Mac OS X:
+A játék egyes funkcióinak használatához a jobb egérgomb szükséges.  
+Ha Apple Mighty Mouse egered van, engedélyezheted a Right Mouse Button opciót a System Preferences->Keyboard and Mouse menüben. Változtasd a  
+„Right Click” lenyíló listában a beállítást „Secondary Button”-ra. 
+
+Ha Apple Mighty Mouse-on szeretnéd emulálni a két gomb egyszerre történő lenyomását, nyomd le a görgetőgombot vagy a bal egérgombot, miközben lenyomva tartod a Command és Option gombokat.
+
+A legtöbb PC-s USB egér is támogatott a Macintosh gépeken. 
+A jobb és bal egérgombokat a rendszer felismeri, és ezek az első csatlakoztatástól megfelelően működnek. 
+
+Ha Apple egygombos egered van, vagy MacBook Pro Track Paddal, emulálhatod a jobb egérgombot a Command gomb lenyomva tartásával kattintás közben. 
+
+Ha egygombos egéren szeretnéd emulálni a két gomb egyszerre történő lenyomását, tartsd lenyomva a Command és Option gombokat, miközben kattintasz az egérrel.
+
+
+Parancssor-opciók
+
+---------------------
+
+
+Az alábbi parancssorok támogatottak:
+  -w     Futtatás ablakos módban.
+  -f     Futtatás teljes képernyős módban.
+  -r:<szélesség>x<magasság> 
+         Futtatás a megadott felbontásban.
+  -safe  Minimális konfigurációs beállítások melletti futtatás, opcionális csomagok
+         betöltése nélkül.
+
+
+Csalások
+------
+
+Csalás beírásához először is meg kell nyitni a parancskonzolt a ctrl-shift-c kombináció együttes lenyomásával. Az Enter megnyomásával bezárhatod a konzolt. Néhány itt használható parancs látható az alábbiakban:
+
+help: a játék összes csalásának felsorolása.
+help [csalásnév]: specifikus információt ad a csalásról.
+quit: kilépés a játékból.
+
+
+
+Kompatibilitási jegyzetek
+===================
+
+A Spore játékot Windows XP kompatibilis grafikus és hangkártyákhoz tervezték. Ezekhez az eszközökhöz az illesztőprogramokat az illető kártyák gyártói készítették, ami ellenőrzésünkön kívül eső kompatibilitási problémákat is okozhat.
+
+Ha problémát tapasztalsz, mindig ésszerű megszerezni és telepíteni a hardveredhez való legfrissebb illesztőprogramokat. A gyártók nagy részének weboldalán elérhetőek a legfrissebb illesztőprogramok.  
+
+További információk a technikai problémákról a http://www.spore.com oldalon találhatók.
+
+Köszönjük, hogy a Spore(tm) játékkal játszol!
+A Spore csapat
+MAXIS

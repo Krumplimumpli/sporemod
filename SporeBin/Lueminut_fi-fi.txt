@@ -1,0 +1,393 @@
+﻿Spore(tm)-pelin LueMinut-tiedosto
+(c)2008 Electronic Arts Inc. Kaikki oikeudet pidätetään.
+
+MAXIS(tm) 1.9.2008
+Versio 1.0
+
+== Sisällysluettelo ==
+Yleistä
+Järjestelmävaatimukset
+Tunnettuja laitteisto-ongelmia
+Suorituskyvyn parantaminen
+Huomautuksia
+Ohjauskomennot ja pikanäppäimet
+Yhteensopivuus
+
+
+YLEISTÄ
+=======
+
+Tervetuloa Sporen maailmaan! Pidä hauskaa pelin parissa.
+Uusimmat peliin ja siihen liittyviin tuotteisiin liittyvät tiedot ovat sivustolla
+
+                 http://www.spore.com
+
+
+Järjestelmävaatimukset
+======================
+
+Alla on lueteltu Sporen järjestelmälle asettamat vähimmäisvaatimukset:
+
+WINDOWS XP:
+ * 2,0 GHz:n P4-suoritin tai vastaava
+ * 512 megatavua RAM-muistia
+ * 128 megatavun näytönohjain, joka tukee Pixel Shader 2.0 -tekniikkaa 
+ * DirectX 9.0c -sovelluksen viimeisin versio
+ * Microsoft Windows XP Service Pack 1
+ * vähintään 4 Gt kiintolevytilaa ja vähintään 1 Gt lisätilaa luomuksia varten.
+
+
+WINDOWS VISTA:
+ * 2,0 GHz:n P4-suoritin tai vastaava
+ * 768 megatavua RAM-muistia
+ * 128 megatavun näytönohjain, joka tukee Pixel Shader 2.0 -tekniikkaa 
+ * vähintään 4 Gt kiintolevytilaa ja vähintään 1 Gt lisätilaa luomuksia varten.
+
+Jos tietokoneessa on Windows-käyttöjärjestelmä ja sisäänrakennettu grafiikkapiirisarja, pelin vähimmäisvaatimukset ovat seuraavat:
+ * Intelin integroitu piirisarja, GMA 945 (Windows) tai suurempi
+ * kaksi 2,6 GHz:n keskusyksikköä tai 1,8 GHz:n Core 2 Duo tai vastaava
+ * 768 megatavua RAM-muistia
+
+MAC OS X:
+ * Mac OS X 10.5.3 Leopard tai uudempi
+ * Intel Core Duo -suoritin
+ * 1 024 Mt RAM-muistia
+ * ATI X1600 tai Nvidia 7300 GT, jossa 128 Mt näyttömuistia, tai Intelin integroitu GMA X3100 -piirisarja
+ * vähintään 4 Gt kiintolevytilaa asennusta varten ja vähintään 1 Gt lisätilaa luomuksia varten.
+
+ Peli ei toimi PowerPC (G3/G4/G5) -pohjaisissa Mac-järjestelmissä tai GMA 950 -luokan integroiduilla näytönohjaimilla.
+
+
+Tuetut näytönohjaimet
+---------------------
+
+NVIDIA GeForce -sarja
+  FX 5900, FX 5950
+  6200, 6500, 6600, 6800,
+  7200, 7300, 7600, 7800, 7900, 7950
+  8400, 8500, 8600, 8800
+  9600, 9800, GTX 260, GTX 280
+
+ATI Radeon(TM) -sarja
+  9500, 9600, 9800
+  X300, X600, X700, X800, X850
+  X1300, X1600, X1800, X1900, X1950
+  2400, 2600, 2900,
+  3450, 3650, 3850, 3870,
+  4850
+
+Intel(R) Extreme Graphics
+  Windows: GMA 950, GMA 3x00 -sarja
+  Mac OS X: GMA X3100
+
+Näiden piirisarjojen kannettavia tietokoneita varten suunnitellut versiot saattavat toimia, mutta niiden toiminta saattaa olla suhteellisen hidasta. PCI-peruspaikkoihin (muihin kuin PCIe-, PCIx- tai AGP-paikkoihin) asennetut itsenäiset näytönohjaimet, kuten jotkin GeForce FX -versiot, toimivat heikosti. Intelin integroidut piirisarjat, joissa on alikellotettuja osia (kuten 945GU, GML ja GMS), eivät toimi kunnolla.
+
+Integroiduissa piirisarjoissa, kuten ATI Xpressissa ja NVIDIA TurboCache -sarjan versioissa, on valittuna alhaiset asetukset, mutta niiden suorituskyvyn pitäisi olla tyydyttävä.
+
+Huomaa, että jos peliä yritetään pelata käyttämällä muuta kuin yllä mainittuja näytönohjaimia, pelin suorituskyky saattaa heiketä, pelissä saattaa olla kuvaongelmia tai peli ei ehkä käynnisty lainkaan.
+
+Windows(R) Vista -käyttöjärjestelmä ei tue NVIDIA GeForce FX -sarjaa.
+
+
+Tunnettuja laitteisto-ongelmia
+==============================
+
+Peli saattaa jumittua otuksen värittämisen yhteydessä tai siirryttäessä koko ruudun näkymästä ikkunanäkymään. Voit korjata ongelman päivittämällä näytönohjaimen ajurit toimittajan verkkosivustolta.
+
+Jos ruudun kokoa muutetaan, joidenkin tietokoneiden näyttö saattaa näyttää kuvan mustana tai vääristyneenä, vaikka näyttö tukisikin uutta kokoa. Jos näin käy, siirry ikkunanäkymään painamalla näppäinyhdistelmää ALT + ENTER ja pienennä sitten tarkkuutta ja päivitystaajuutta. 
+
+Peli ei tue äänien laitteistopohjaista kiihdytystä.
+
+Windows Vista:
+Peliä käynnistettäessä jotkut Windows Vista -käyttöjärjestelmän käyttäjät saattavat nähdä varoituksen osoitetilan loppumisesta sekä linkin Microsoft Knowledge Base -sivustolle. Jos sanoma tulee näkyviin, on suositeltavaa siirtyä ilmoitetulle verkkosivulle ja päivittää järjestelmä ohjeiden mukaisesti.
+
+Turtle Beach Montego DDL – 5.1-tilaääniä ei tueta. Vaihtoehto näkyy asetuksissa, mutta äänet ovat stereo-ääniä (2 kanavaa) kaikilla kaiuttimilla.
+
+Mac OS X:
+Jos Mac OS X -järjestelmässä on NVIDIA-näytönohjain, jossa on vähemmän kuin 256 Mt näyttömuistia, grafiikan laatua on ehkä heikennettävä vianmääritysohjeiden mukaan. Tämä parantaa grafiikan laatua.
+
+Jos peliä pelataan Mac Book Pro -koneessa, jossa näytön peilaus on otettu käyttöön, varmista, että sekä sisäinen että ulkoinen näyttölaite tukee valittua tarkkuutta. Tämän ongelman voi kiertää varmistamalla, että sisäinen LCD-näyttö on järjestelmän päänäyttö, ennen kuin näytön peilaus otetaan käyttöön. Tällöin vaihtoehdoiksi tulevat oikeat tarkkuudet.
+
+Joissakin tapauksissa pelin ääniä ei kuule, jos kuulokkeet liitetään pelin käynnistämisen jälkeen. Varmista, että olet liittänyt kuulokkeesi MAC-järjestelmääsi ennen pelin käynnistämistä. 
+
+Jos käytössä on ATI X1600- tai X1900 -näytönohjain ja ruudunpäivitysnopeus aiheuttaa ongelmia, laske valaistuksen laatutasoa.
+
+
+Suorituskyvyn parantaminen
+==========================
+
+Kun käynnistät Sporen ensimmäistä kertaa, peli valitsee automaattisesti parhaat asetukset näytönohjaimelle, suorittimelle ja äänikortille. Voit parantaa pelin suorituskykyä valitsemalla asetusvalikosta näiden kohtien asetukseksi keskiverron tai alhaisen.
+
+Voit parantaa pelin suorituskykyä myös valitsemalla pelille pienemmän kuvantarkkuuden, esimerkiksi 1 024 x 768 tai 800 x 600. Peliä ei suositella käytettäväksi koko näytöllä, jos näytön vaakatarkkuus on 1 600 tai enemmän.
+
+Spore on reaaliaikainen 3D-peli, joka tarvitsee käyttöönsä valtaosan tietokoneen suorituskyvystä. Muut taustalla toimivat ohjelmat saattavat hidastaa pelin toimintaa tai aiheuttaa häiriöitä, joten kaikki taustalla toimivat sovellukset kannattaa sulkea ennen Sporen käynnistämistä.
+
+Koko näytön näkymässä peli toimii yleensä sujuvammin kuin ikkunanäkymässä.
+
+
+Huomautuksia
+============
+
+Spore-pelin virheilmoitukset
+----------------------------
+
+Spore-peliä käynnistettäessä esiin saattaa tulla virheilmoituksia. Seuraavassa on virheilmoitusten tunnuskoodit, selvitys ilmoituksen sisällöstä ja toimintaohje virheiden korjaamiseksi.
+
+1000:  Spore on jo käynnissä. Lopeta käynnissä oleva peli
+       ja käynnistä peli sitten uudelleen.
+
+1001:  Peli ei löydä sopivaa näyttötilaa.
+       Varmista, että näyttö on asetettu 32-bittiseen tilaan.
+
+1002:  Direct X -sovellusta ei ole asennettu. Asenna Direct X
+       tai asenna peli uudelleen.
+
+1004:  Pelitietojen hakemistoa ei löydy. Asenna peli uudelleen.
+
+1010:  Näytönohjaimen ajuri tulee päivittää, jotta 
+       yhteensopivuusongelmilta vältytään. Päivityksen voi yleensä
+       suorittaa lataamalla viimeisimmän ajurin näytönohjaimen valmistajan 
+       verkkosivulla. Seuraavassa ovat NVIDIAn, ATIn ja Intelin sivustojen
+       osoitteet:
+       
+         http://www.nvidia.com/content/drivers/drivers.asp
+         http://ati.amd.com/support/driver.html
+         http://support.intel.com/support/graphics/
+
+1011:  Näytönohjaimen ajuri tulee päivittää, jotta pelissä ei
+       esiintyisi vakavia ongelmia. Lisätietoja on kohdassa 1010.
+
+1012:  Tämä näytönohjain aiheuttaa pelissä ongelmia, kun käytössä
+       on useita grafiikkasuorittimia. Päivitä näytönohjaimen
+       ajurit tai poista monen grafiikkasuorittimen yhteiskäyttö 
+       näytönohjaimen ohjauspaneelissa.
+
+2001:  Järjestelmän vähimmäisvaatimukset eivät täyty, ja peliä ei voi
+       käyttää.
+
+2002:  Järjestelmän vähimmäisvaatimukset eivät täyty, ja pelatessa
+       saattaa ilmetä ongelmia grafiikan, suorituskyvyn tai äänien
+       osalta.
+       
+2003:  Käytössä oleva Windows Vistan versio ei tue näytönohjaimia,
+       joissa on paljon VRAM-muistia. Päivitä käyttöjärjestelmä
+       SP1-versioon tai asenna tarvittava korjaus osoitteesta
+
+         http://support.microsoft.com/default.aspx/kb/940105
+
+
+Asiakaspalvelu verkossa
+-----------------------
+
+Electronic Artsin asiakaspalvelusivusto on osoitteessa
+http://eusupport.ea.com (eurooppalaiset käyttäjät) tai
+http://support.ea.com (pohjoisamerikkalaiset käyttäjät). 
+
+Voit etsiä tarvitsemasi tiedot käyttämällä sivuston hakutoimintoja. Knowledge Base -tietokantaa päivitetään aina, kun uusia tietoja ilmenee, joten sivustolla kannattaa käydä tarkistamassa uusimmat tiedot ja uutiset.
+
+
+Pelin asennus
+-------------
+
+Windows (kun käytössä on pelilevy):
+ * Aseta levy levyasemaan ja noudata ruudulle tulevia ohjeita.
+ * Kun peli on asennettu, voit käynnistää sen Käynnistä-valikosta.
+ * Windows Vista(tm) -käyttöjärjestelmässä pelit ovat valikossa
+   Käynnistä > Pelit, ja aiemmissa Windows(tm)-versioissa
+   valikossa Käynnistä > Ohjelmat (tai Kaikki ohjelmat)
+
+Windows (kun peli on ostettu EA Storesta)
+* Kun EA Download Manager -sovellus on ladannut pelin, napsauta
+  näkyviin tulevaa asennuskuvaketta ja noudata ruudulle tulevia
+  ohjeita.
+* Kun peli on asennettu, voit käynnistää sen EA Download Manager 
+  -sovelluksen kautta.
+
+Jos käytössä on Windows Vistan normaali Käynnistä-valikko, pelit sijaitsevat kansiossa Käynnistä > Kaikki ohjelmat > Pelit > Peliselain.
+
+Mac OS X:
+ * Aseta pelin levy CD/DVD-ROM -asemaan. Työpöydällesi tulee CD-kuvake.
+   Napsauta kuvaketta kahdesti, jotta pelin käynnistysvalikko tulee näkyviin.
+
+ * Valitse pelin asennuskuvake käynnistysvalikon alaosasta
+   ja siirry asennusvalikkoon.
+
+ * Asenna peli noudattamalla ruutuun tulevia ohjeita. 
+
+
+Verkkokaupasta ostetun pelin asennus
+------------------------------------
+
+Ota yhteyttä siihen verkkokauppaan, josta ostit tämän pelin. Pelin myyjältä saat tarkempia ohjeita pelin asentamisesta sekä uuden pelikopion lataamisesta ja uudelleenasentamisesta.
+
+Huom: Jos kaipaat lisätietoja pelistäsi, pelivinkkejä tai korjauspäivityksiä, käy sivustolla http://www.ea.com tai http://www.eastore.com.
+
+
+Pelin poisto
+------------
+
+Windows XP
+ * Valitse Ohjauspaneelissa Lisää tai poista sovellus.
+ * Valitse Muuta tai poista sovellus.
+ * Napsauta SPORE-kohtaa.
+ * Valitse Poista. 
+ * Viimeistele sovelluksen poisto noudattamalla esiin tulevia ohjeita.
+
+Windows Vista
+ * Valitse ohjauspaneelissa Perinteinen näkymä ja avaa
+   Ohjelmat ja toiminnot. 
+ * Napsauta SPORE-kohtaa.
+ * Napsauta Poista asennus -painiketta. 
+ * Viimeistele sovelluksen poisto noudattamalla esiin tulevia ohjeita.
+
+Mac OS X:
+ * Varmista, että olet kirjautunut sisään käyttämällä tiliä, jolla
+   on järjestelmänvalvojan käyttöoikeudet.
+ * Poista SPORE-kansio Applications-kansiosta.
+ * Muut tiedostot ovat kansiossa
+   /Users/<käyttäjätunnus>/Library/Preferences/Spore Preferences.
+ * Jos haluat poistaa Spore-pelin luoman sisällön, poista kansio
+   /Users/<käyttäjätunnus>/Documents/Omat Spore-luomukset
+
+
+Tallennuskansiot
+----------------
+
+Spore säilyttää otukset, videot, kuvat ja animoidut hahmot käyttäjäkansion alakansiossa Omat Spore-luomukset. Kansion sijainti määräytyy käyttöjärjestelmän mukaan:
+
+Windows XP:
+* Omat Spore-luomukset -kansio on Omat tiedostot -kansiossa. 
+
+Windows Vista:
+* Omat Spore-luomukset -kansio on Tiedostot-kansiossa.
+
+Mac OS X:
+* Omat Spore-luomukset -kansio on Documents-kansiossa.
+
+Spore myös tallentaa ladatun sisällön kuvatiedot välimuistiin. Jos vapaata levytilaa on vähän, pienennä välimuistin kokoa kuva-asetuksissa.
+
+
+Ohjauskomennot ja pikanäppäimet
+===============================
+
+- Otuseditori -
+
+Hiiren vasen painike: valitse ja siirrä osia.
+
+Hiiren vasen painike: liikuta valittuna olevan osan nuolisäätimiä, niin osan muoto muuttuu.
+
+Hiiren vasen painike: vedä osia pois otuksesta, niin saat takaisin osiin käyttämiäsi pisteitä.
+
+Vie kohdistin osan tai nikaman yli ja muuta sen kokoa hiiren rullalla. Voit myös valita osan ja käyttää nuolinäppäimiä ylös ja alas.
+
+Pidä ALT-näppäin painettuna, kun napsautat ja vedät osaa, niin voit kopioida osan. Jos käytössä on Mac-järjestelmä, pidä painettuna OPTIO-näppäin.
+
+Napsauta hiiren vasenta painiketta ja vedä selkärangan kohdalla, niin voit muuttaa selkärangan muotoa. Nuolinäppäimillä voit lyhentää tai pidentää selkärankaa.
+
+Napsauta hiiren vasemmalla painikkeella vartaloa (ei selkärankaa), niin voit liikuttaa sitä.
+
+Pidä CTRL-näppäin painettuna ja vedä raajan osaa, niin voit kiinnittää osan toiseen raajaan.
+
+Pidä SARKAIN painettuna, kun osa on valittuna, niin esiin tulee enemmän kääntösäätimiä.
+
+
+- Rakennuseditori -
+
+Jos haluat liikuttaa osaa pystysuunnassa, pidä CTRL-näppäin alhaalla, napsauta osaa ja siirrä se hiirellä uuteen kohtaan.
+
+Jos haluat liikuttaa osaa alustalla, pidä SHIFT-näppäin alhaalla, napsauta osaa ja siirrä se hiirellä uuteen kohtaan.
+
+
+- Kulkuneuvoeditori -
+
+Rungon ja ohjaamon osat sijoitetaan automaattisesti kulkuneuvon keskilinjan mukaan.
+
+Kulkuneuvot eivät voi olla rajattoman korkeita tai leveitä.
+
+Voit liikuttaa koko kulkuneuvoa pitämällä SHIFT-näppäimen alhaalla ja liikuttamalla hiirtä. 
+
+
+- Kuvakulma -
+
+Napsauta taustaa hiiren vasemmalla painikkeella, niin voit liikuttaa kuvakulmaa.
+
+Koekävelyn aikana hiiren rulla lähentää ja loitontaa kuvakulmaa.
+
+Osien ja värien yhteydessä pidä SHIFT-näppäin painettuna ja pyöritä hiiren rullaa, niin kuvakulma lähenee ja loittonee.
+
+, ja .     Käännä kuvakulmaa
++ ja -     Kohdista lähemmäs tai kauemmas
+
+
+- Yleiset näppäinkomennot -
+
+CTRL + N     Luo uusi otus
+CTRL + Y     Tee uudelleen
+CTRL + Z     Peruuta
+CTRL + S     Tallenna otus
+CTRL + H     Näytä tai piilota ohjauspaneeli
+H            Avaa tai sulje Spore-opas
+B            Avaa tai sulje Spore-keskus
+
+Windows:
+ALT + ENTER  Vaihda ikkunanäkymästä koko ruudun näkymään ja toisin päin.
+
+Mac OS X:
+KOMENTO + RETURN   Vaihda ikkunanäkymästä koko ruudun näkymään ja toisin päin.
+KOMENTO + SARKAIN  Pienentää pelin, kun peliä pelataan koko ruudun näkymässä.
+
+Huomaa, että peli ei pysähdy pienennyksen yhteydessä, vaan peli jatkuu taustalla.
+
+
+- Hiiren oikean painikkeen toiminnot -
+
+Mac OS X:
+Tiettyihin pelin toimintoihin tarvitaan hiiren oikeaa painiketta.  
+Jos käytössäsi on Apple Mighty Mouse -ohjauslaite, voit ottaa hiiren oikean painikkeen käyttöön valitsemalla järjestelmäasetuksista kohdan näppäimistö ja hiiri. Muuta hiiren oikean painikkeen napsautukseen liittyvän valikon asetukseksi toissijainen painike.
+
+Voit korvata molempien painikkeiden samanaikaisen napsautuksen Apple Mighty Mouse -hiirellä pitämällä rullapainikkeen alhaalla tai napsauttamalla hiiren vasenta painiketta samalla, kun pidät KOMENTO- ja OPTIO-näppäimen alhaalla.
+
+Macintosh-järjestelmät tukevat myös useimpia PC-tietokoneiden USB-hiiriä. 
+Järjestelmä erottaa hiiren vasemman ja oikean painikkeen, ja hiiret toimivat oikein, kun ne kytketään järjestelmään. 
+
+Jos käytössä on yksipainikkeinen Apple-hiiri tai MacBook Pro -tietokone, jossa on ohjauslaatta, voit korvata hiiren oikean painikkeen napsautuksen pitämällä KOMENTO-näppäimen painettuna, kun napsautat hiiren painiketta.
+
+Voit korvata hiiren molempien painikkeiden samanaikaisen napsautuksen yksipainikkeisella hiirellä pitämällä KOMENTO- ja OPTIO-näppäimen alhaalla ja napsauttamalla hiiren painiketta.
+
+
+Komentorivin määritteet
+-----------------------
+
+Peli tukee seuraavia komentorivin määritteitä:
+  -w     Käynnistää pelin ikkunanäkymässä
+  -f     Käynnistää pelin koko ruudun näkymässä
+  -r:<leveys>x<korkeus> 
+         Käynnistää pelin annetulla kuvantarkkuudella
+  -safe  Käyttöön otetaan vain pakolliset asetukset ja
+         jättää valinnaiset lisäosat lataamatta.
+
+
+Huijauskoodit
+-------------
+
+Jos haluat käyttää pelissä huijauskoodeja, avaa ensin komentoruutu painamalla näppäinyhdistelmää CTRL + SHIFT + C. Voit sulkea komentoruudun painamalla ENTER-näppäintä. Seuraavassa on kuvattu osa pelin huijauskoodeista:
+
+help: näyttää kaikki pelin huijauskoodit.
+help [huijauskoodin nimi]: näyttää valitun huijauskoodin tiedot.
+quit: lopettaa pelin.
+
+
+Yhteensopivuus
+==============
+
+Spore on suunniteltu käytettäväksi Windows XP -yhteensopivan näytönohjaimen ja äänikortin kanssa. Laitteiden ajurit ovat laitevalmistajien toimittamia, ja ajureista johtuvat yhteensopivuusongelmat eivät ole ovat pelintekijän tai -julkaisijan vastuulla.
+
+Jos pelissä ilmenee ongelmia, on suositeltavaa asentaa uusimmat laiteajurit. Useimmilla laitevalmistajilla on uusimmat ajurit saatavilla verkkosivuillaan.  
+
+
+Lisätietoa yleisimmistä teknisistä ongelmista on osoitteessa http://www.spore.com.
+
+Pidä hauskaa Sporen parissa!
+Spore-tiimi
+MAXIS
+

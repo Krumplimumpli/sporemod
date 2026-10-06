@@ -1,0 +1,367 @@
+﻿LesMeg til Spore(tm)
+(c)2008 Electronic Arts Inc. Med enerett.
+
+MAXIS(tm) 01.09.08
+Versjon 1.0
+
+== Innhold ==
+Generelt
+Systemkrav
+Kjente maskinvareproblemer
+Ytelsestips
+Merknader
+Kontroller og snarveier
+Kompatibilitetsmerknader
+
+
+GENERELT
+=======
+
+Velkommen til Spore! Vi håper du får det moro med spillet. 
+Hvis du vil ha siste nytt og oppdatert informasjon om spillet og tilhørende produkter, kan du gå inn på 
+
+ http://www.spore.com
+
+
+Systemkrav
+===================
+
+Spore krever minst følgende:
+
+FOR WINDOWS XP
+ * 2,0 GHz P4-prosessor eller tilsvarende
+ * 512 MB RAM
+ * 128 MB grafikkort med støtte for Pixel Shader 2.0 
+ * Den nyeste versjonen av DirectX 9.0c
+ * Microsoft Windows XP Service Pack 1
+ * Minst 4 GB ledig plass på harddisken, med minst 1 GB ekstra plass til det du lager.
+
+FOR WINDOWS VISTA
+ * 2,0 GHz P4-prosessor eller tilsvarende
+ * 768 MB RAM
+ * 128 MB grafikkort med støtte for Pixel Shader 2.0 
+ * Minst 4 GB ledig plass på harddisken, med minst 1 GB ekstra plass til det du lager.
+
+For datamaskiner med integrerte grafikkort krever spillet minst:
+ * Intel Integrated Chipset 945GM eller bedre.
+ * 2,6 GHz Pentium D CPU, 1,8 GHz Core 2 Duo eller tilsvarende.
+ * 768 MB RAM
+
+FOR MAC OS X
+ * Mac OS X 10.5.3 Leopard eller nyere
+ * Intel Core Duo-prosessor
+ * 1024 MB RAM
+ * ATI X1600 eller NVidia 7300 GT med 128 MB grafikkminne, eller Intel Integrated GMA X3100
+ * Minst 4 GB ledig plass på harddisken, med minst 1 GB ekstra plass til det du lager.
+
+Dette spillet kan ikke kjøres på PowerPC-baserte Mac-systemer (G3/G4/G5, PowerMac) eller GMA 950-serien integrerte grafikkort. 
+
+
+Grafikkort som støttes
+=====================
+
+NVIDIA GeForce-serien
+  FX 5900, FX 5950
+  6200, 6500, 6600, 6800,
+  7200, 7300, 7600, 7800, 7900, 7950
+  8400, 8500, 8600, 8800
+  9600, 9800, GTX 260, GTX 280
+
+ATI Radeon(TM)-serien
+  9500, 9600, 9800
+  X300, X600, X700, X800, X850
+  X1300, X1600, X1800, X1900, X1950
+  2400, 2600, 2900,
+  3450, 3650, 3850, 3870,
+  4850
+
+Intel(R) Extreme Graphics
+ Windows: GMA 950, GMA 3x00-serien
+ Mac OS X: GMA X3100
+ 
+Laptop-versjoner av disse brikkesettene kan fungere, men kan ha lavere ytelser. Enkeltstående kort som installeres i PCI-spor (ikke PCIe eller PCIx eller AGP), som enkelte GeForce FX-varianter, fungerer dårlig. Intel integrerte brikkesett med underklokkede deler, som 945GU, GML og GMS, fungerer ikke skikkelig.
+
+Integrerte brikkesett, som ATI xpress 200 og NVIDIA TurboCache har lave innstillinger valgt, men kjører tilfredsstillende.
+
+Hvis du prøver å spille med et grafikkort som ikke er listet opp over, kan du oppleve dårlige ytelser, grafiske problemer eller at spillet ikke kjører i det hele tatt.
+
+NVIDIA GeForce FX-serien støttes ikke i Vista.
+
+
+Kjente maskinvareproblemer
+=====================
+
+Spillet kan komme til å fryse mens du maler en skapning eller etter du har byttet mellom full skjerm og vindu. Dette fikser du ved å oppdatere driverne til grafikkortet ditt fra nettsidene til leverandøren.
+
+Når du endrer skjermoppløsning kan skjermen av og til ikke reagere på en oppløsning den egentlig skal støtte, og isteden vise svart skjerm eller forvrengt bilde. Hvis dette skjer, kan du bytte til vindusmodus, og endre oppløsningen og billedfrekvensen til mindre verdier.
+
+Windows Vista:
+Når spillet startes, kan noen Microsoft Vista-brukere motta en advarsel om at man er i ferd med å slippe opp for adresseplass, sammen med en link til Microsofts kunnskapsbase. Hvis du ser denne meldingen, anbefales det at du følger instruksjonene på skjermen og går til nettsiden som beskrives for å oppdatere systemet.
+
+Turtle Beach Montego DDL – Surround 5.1 støttes ikke. 
+Denne modusen er tilgjengelig under i innstillingene, men lyden avspilles bare i Stereo (2 kanaler) for alle høyttalerne.
+
+Mac OS X:
+På Mac OS X-systemer som har NVIDIA-kort med mindre enn 256 MB VRAM, kan det hende du må redusere grafikkvaliteten ved hjelp av metodene som beskrives under Generell problemløsing for å få bedre grafisk kvalitet.
+
+Hvis du kjører spillet på en Mac Book Pro med ekstern skjerm, må du sørge for at du velger en oppløsning som støttes både av den interne og den eksterne skjermen. Du kan komme deg forbi dette problemet ved å sørge for at den interne LCD-skjermen er hovedsystemskjerm før du skrur på "display mirroring". Da vil du få opp oppløsninger som kan brukes.
+
+Av og til stopper spillyden å spille når hodetelefoner kobles til etter spillet har startet. Du forhindrer at dette skjer ved å sørge for at hodetelefonene er koblet til Macen din før du starter spillet.
+
+Hvis du har problemer med billedfrekvensen når du bruker et ATI X1600- eller X1900-kort, kan du redusere lyskvalitetsinnstillingen til lav.
+
+Ytelsestips
+================
+
+Når du kjører Spore for første gang, velger spillet automatisk de beste innstillingene til grafikkortet ditt, prosessoren og lydkortet. Hvis du vil ha bedre ytelser, kan du bruke innstillingspanelet til å redusere innstillingene til "middels" eller "lav".
+
+Du kan også forbedre ytelsene ved å senke oppløsningen spillet kjører i til 1024 x 768 eller 800 x 600. Det anbefales ikke at du kjører med full skjerm hvis maskinen din bruker en oppløsning på 1600 eller mer på tvers.
+
+Spore er et sanntids-3D-spill som krever mesteparten av datamaskinens prosessorkraft. Andre programmer som kjører i bakgrunnen kan gjøre at spillet ikke kjører optimalt. De beste resultatene får du hvis du lukker bakgrunnsoppgaver mens du spiller Spore.
+
+Det er vanligvis bedre å kjøre spillet på hele skjermen enn i et vindu.
+
+
+Merknader
+=====
+
+Spore-feilmeldinger
+--------------------
+
+Under finner du noen feilmeldinger du kan få opp i spillet, og forslag til hvordan du kan løse problemene.
+
+1000: En annen versjon av Spore kjører allerede. Avslutt denne først.
+
+1001:  Spillet finner ikke noen gyldige visningsmoduser. Sjekk at skjermen din er satt til 32 bit.
+
+1002:  Direct X er ikke installert. Installer DirectX eller installer spillet på nytt.
+       
+1004:  Spillet finner ikke game datamappen. Installer spillet på nytt.
+
+1010   Det anbefales at du oppdaterer driverne til grafikkortet ditt for å unngå kompatibilitetsproblemer. Du kan gjøre dette ved å gå inn på nettsidene til produsenten av grafikkortet. Sidene til NVIDIA, ATI og Intel er:
+       
+         http://www.nvidia.com/content/drivers/drivers.asp
+         http://ati.amd.com/support/driver.html
+         http://support.intel.com/support/graphics/
+
+1011:  Det anbefales at du oppgraderer driverne til grafikkortet ditt for å unngå alvorlige problemer med spillet. Se over.
+
+1012:  Spillet har problemer med dette kortet i multi-GPU-modus. Du må enten oppdatere driverne dine eller skru av multi-GPU-modus fra kontrollpanelet til kortet.
+
+2001:  Systemet tilfredsstiller ikke minimumskravene for spillet, og kan ikke kjøre.
+
+2002:  Systemet tilfredsstiller ikke minimumskravene for spillet, og det kan hende du får problemer med grafikk, lyd og ytelser generelt.
+       
+2003:  Du kjører en versjon av Vista som har problemer med grafikkort som har mye VRAM. Oppdater til SP1, eller installer en løsning på problemet her: 
+
+         http://support.microsoft.com/default.aspx/kb/940105
+
+
+
+Netthjelp
+--------
+
+Kundestøtte hos Electronic Arts Customer finner du på 
+
+ http://support.ea.com 
+
+for nordamerikanske brukere og 
+
+ http://eusupport.ea.com 
+ 
+for europeiske brukere. 
+
+Bruk søkeverktøyene til å finne informasjonen du trenger. Kunnskapsbasen blir oppdatert når ny informasjon blir tigjengelig, så kom tilbake med jevne mellomrom for å få med deg siste nytt.
+
+
+Installere spillet
+---------------------
+
+Windows: (diskbrukere):
+ * Sett inn disken i diskstasjonen og følg instruksjonene på skjermen.
+ * Når spillet er installert kan du starte det ved å finne det med startmenyen. 
+ * Spill i Windows Vista™ finnes under Start > Spill, i tidligere versjoner av Windows™ finner du spill under Start > Programmer (eller Alle programmer).
+
+Windows (EA Store-brukere):
+ * Når spillet er lastet ned med EA Download Manager, klikker du på installeringsikonet som vises og følger instruksjonene på skjermen.
+ * Når du har installert spillet, kjører du det direkte fra EA Download Manager.
+
+Med klassisk startmeny i Windows Vista, finner du spill under 
+Start > Programmer > Spill > Spilltforsker.
+
+
+Mac OS X:
+ * Sett inn spilldisken i CD/DVD-ROM-stasjonen. Det vises et CD-ikon som representerer spilldisken på skrivebordet. Dobbeltklikk på ikonet for å åpne spillets startprogram.
+ * Velg spillets installasjonsikon nederst i startprogrammet for å få frem installasjonsmenyen. 
+ * Følg instruksjonene på skjermen for å fullføre installeringen.
+
+Installering av digital nedlastingsversjon
+---------------------
+
+Kontakt det digitale utsalgsstedet du har kjøpt spillet fra for å få vite hvordan du skal installere spillet og hvordan du laster ned og installerer et nytt eksemplar av spillet.
+
+Merk: Hvis du vil ha mer informasjon om spillet, i tillegg til tips og oppdateringer, kan du gå inn på http://www.ea.com eller http://www.eastore.com.
+
+
+Avinstallere spillet
+---------------------
+
+Windows XP:
+ * Åpne Legg til eller fjern programmer i kontrollpanelet.
+ * Klikk på Endre eller fjerne programmer.
+ * Klikk på SPORE.
+ * Klikk på Fjern. 
+ * Følg instruksjonene på skjermen for å fullføre avinstalleringen.
+
+Windows Vista:
+ * Åpne kontrollpanelet for Programmer og funksjoner. 
+ * Klikk på SPORE. 
+ * Klikk på Avinstaller. 
+ * Følg instruksjonene på skjermen for å fullføre avinstalleringen.
+
+Mac OS X:
+ * Sørg for at du er logget på med administrative rettigheter.
+ * Slett SPORE-mappen fra programmappen.
+ * Andre filer kan finnes under /Users/<Username>/Library/Preferences/Spore Preferences.
+
+ * Hvis du vil fjerne innholdet som er laget av Spore, fjerner du mappen  /Brukere/<Brukernavn>/Dockumenter/My Spore Creations
+
+Plasseringer på disken
+---------------------
+
+Spore oppbevarer skapninger, bilder og animerte avatarer i en mappe som kalles "My Spore Creations". Stedet mappen befinner seg varierer i forhold til operativsystemet:
+
+Windows XP:
+* “My Spore Creations” befinner seg under Mine dokumenter. 
+
+Windows Vista:
+* “My Spore Creations” befinner seg under Dokumenter.
+
+Mac OS X:
+* “My Spore Creations” befinner seg under Dokumenter.
+
+Her er det også et mellomlager for grafikken til skapningene du har lastet ned. Hvis du har lite plass på disken, kan du prøve å redusere størrelsen på dette mellomlageret i grafikkinnstillingene.
+
+
+Kontroller og snarveier
+======================
+
+- Skapningsskaper -
+
+Venstreklikk for å velge og bevege deler.
+
+Venstreklikk for å bevege de pilformede hendlene på en del du har valgt. Dette endrer formen.
+
+Venstreklikk og dra deler av skapningen for å selge dem tilbake.
+
+Hold markøren over en del eller en ryggvirvel og bruk musehjulet til å endre størrelse. Du kan også velge delen og bruke opp-pilen og ned-pilen.
+
+Hold inne Alt mens du klikker og drar for å lage en kopi av en del. På 
+Mac-systemer, bruker du Option istedenfor Alt.
+
+Venstreklikk og dra direkte på ryggraden for å endre formen på den. Bruk piltastene til å forlenge og forkorte ryggraden.
+
+Venstreklikk på selve torsoen (ikke ryggraden) for å bevege den.
+
+Hold inne Ctrl mens du drar et lem for å feste det til et annet lem.
+
+Hold inne Tab når du har valgt en del for å vise flere rotasjonshendler.
+
+- Bygningsskaper -
+
+Hvis du vil flytte en del vertikalt, holder du inne Ctrl mens du flytter delen med musen.
+
+Hvis du vil flytte en del på tvers, holder du inne Skift mens du flytter delen med musen.
+
+
+- Fremkomstmiddelskaper -
+
+Kropper og cockpiter innretter seg automatisk langs senterlinjen på fremkomstmiddelet.
+
+Det er grenser for hvor høye og brede fremkomstmidler kan være. 
+
+Hvis du vil flytte et helt fremkomstmiddel, holder du inne Skift mens du beveger musen. 
+
+- Kamera -
+
+Venstreklikk på bakgrunnen for å flytte kameraet.
+
+I prøvekjøringsmodus zoomer du ut og inn med musehjulet.
+
+I bygge- og malemodus zoomer du med Skift og musehjulet. 
+
+Kommatasten og punktumtasten roterer kameraet.
++ og - zoomer inn og ut
+
+- Generelt -
+
+Ctrl-N Start ny skapning
+Ctrl-Y Gjenta
+Ctrl-Z Angre
+Ctrl-S Lagre skapning
+Ctrl-H Vis og skjul brukergrensesnittet
+H eller ? Hent frem eller lukk Spore-guiden
+B Hent frem Sporepedia™
+
+Windows:
+Alt-Enter Velg mellom å kjøre spillet i vindu eller over hele skjermen.
+
+Mac OS X:
+Command-Return Velg mellom å kjøre spillet i vindu eller over hele skjermen.
+Command-Tab 	 Minimer spillet når du spiller med hele skjermen.
+
+Når spillet er minimert er det ikke i pause, men fortsetter å kjøre i bakgrunnen.
+
+
+- Høyreklikkfunksjonalitet for Mac OS X -
+
+Dette spillet har funksjoner som krever at du bruker høyre museknapp. 
+Hvis du har en Apple Mighty Mouse, kan du skru på høyre museknapp under Systemvalg->Tastatur og mus. Endre høyreklikk til sekundærknappen. 
+
+Hvis du vil emulere å klikke på begge knappene samtidig med Apple Mighty Mouse, holder du inne rulleknappen eller klikker på venstre museknapp mens du holder inne Command- og Option-knappen.
+
+De fleste USB-mus til PC fungerer også på Mac. 
+Venstre og høyre museknapp registreres og fungerer korrekt når du plugger inn musen. 
+
+Hvis du har en Apple legacy-mus med en knapp, eller en MacBook Pro med en Track Pad, kan du emulere høyreklikk ved å holde inne Command-tasten mens du klikker med museknappen.
+
+Hvis du vil emulere å klikke på begge knappene samtidig med en mus med en knapp, holder du inne Command- og Option-knappen når du klikker.
+
+
+Kommandolinjealternativer
+-------------------------------------------------------
+
+Følgende kommandolinjealternativer støttes:
+ -w Kjøre i vindu
+ -f Kjøre over hele skjermen
+ -r:<bredde>x<høyde> 
+ Kjøre i valgt oppløsning.
+ -safe Tving spillet til å kjøre med et bestemt konfigurasjonssett og
+ ikke last inn ekstra plugins.
+
+
+Juksekoder
+-------------------------------------------------------
+
+Hvis du vil skrive inn juksekoder i spillet, må du først åpne kommandokonsollen ved å trykke samtidig på Ctrl, Skift og C. Trykk på Enter-tasten for å lukke kommandokonsollen. Dette er noen av juksekodene du kan bruke:
+
+help: gir deg en liste over alle juksekodene i spillet.
+help [cheatname]: viser spesifikk informasjon om en juksekode.
+quit: avslutt spill.
+
+
+Kompatibilitetsmerknader
+===================
+
+Spore er laget for å kunne kjøres med Windows XP-kompatible grafikkort og lydkort. Driverne til disse enhetene leveres av de respektive produsentene og kan føre til inkompatibilitetsproblemer som ligger utenfor vår kontroll.
+
+Hvis du har problemer, anbefales det alltid at du laster ned og installerer de nyeste driverne til maskinvaren din. De fleste maskinvareprodusenter har de nyeste driverne tilgjengelige på nettsidene sine. 
+
+
+Mer informasjon om kjente tekniske problemer er tilgjengelig på http://www.spore.com.
+
+Takk for at du spiller Spore!
+Spore-teamet
+MAXIS
+
+

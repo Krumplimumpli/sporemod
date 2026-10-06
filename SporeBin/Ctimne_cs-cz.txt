@@ -1,0 +1,460 @@
+﻿Readme pro SPORE (TM)
+(c) 2008 Electronic Arts Inc. Všechna práva vyhrazena.
+
+MAXIS (TM) 9/01/08
+Verze 1.0
+
+== Přehled obsahu ==
+Obecné
+Systémové požadavky
+Známé hardwarové problémy
+Rady pro zvýšení výkonu
+Poznámky
+Ovládání a klávesové zkratky
+Poznámky ke kompatibilitě
+
+
+OBECNÉ
+===================
+
+Vítejte ve SPORE! Doufáme, že si s ním užijete
+spoustu zábavy. Pro nejaktuálnější informace o tvůrci hry a
+přidružených produktů navštivte prosím
+
+                 http://www.spore.com
+
+
+Systémové požadavky
+===================
+
+SPORE vyžaduje minimálně tuto konfiguraci:
+
+PRO WINDOWS XP
+ * 2,0 GHz P4 procesor nebo ekvivalentní
+ * 512 MB RAM
+ * 128MB grafickou kartu s podporou Pixel Shader 2.0 
+ * Nejnovější verzi DirectX 9.0c
+ * Microsoft Windwows XP Service Pack 1
+ * Minimálně 4GB volného místa na disku pro instalaci, plus
+   dodatečné místo minimálně 1GB pro ukládání vytvořených příšerek.
+
+PRO WINDOWS VISTA
+ * 2,0 GHz P4 procesor nebo ekvivalentní
+ * 768 MB RAM
+ * 128MB grafickou kartu s podporou Pixel Shader 2.0  
+ * Minimálně 4GB volného místa na disku pro instalaci, plus
+   dodatečné místo minimálně 1GB pro ukládání vytvořených příšerek.
+
+U počítačů s integrovanou grafickou kartou hra 
+vyžaduje minimálně následující:
+ * Intel Integrated Chipset, 945GM nebo vyšší
+ * procesory Dual 2.6 GHz, nebo 1.8 GHz Core 2 Duo, nebo ekvivalentní
+ * 768 MB RAM
+
+PRO MAC OS X
+ * MAC OS X 10.5.3 LEOPARD nebo vyšší
+ * Procesor Intel Core Duo
+ * 1024MB paměti RAM
+ * ATI X1600 nebo Nvidia 7300 GT se 128MB video RAM, nebo
+   integrovaná karta Intel GMA X3100.
+ * Alespoň 4GB volného místa na disku, plus dodatečné místo
+   alespoň 1GB pro ukládání vytvořených příšerek.
+
+Tato hra nepoběží na systémech Mac s PowerPC (G3/G4/G5) ani na integrovaných grafických kartách třídy GMA 950.
+
+
+Podporované grafické karty
+---------------------
+
+NVIDIA GeForce series
+  FX 5900, FX 5950
+  6200, 6500, 6600, 6800,
+  7200, 7300, 7600, 7800, 7900, 7950
+  8400, 8500, 8600, 8800
+  9600, 9800, GTX 260, GTX 280
+
+Řada ATI Radeon (TM)
+  9500, 9600, 9800
+  X300, X600, X700, X800, X850
+  X1300, X1600, X1800, X1900, X1950
+  2400, 2600, 2900,
+  3450, 3650, 3850, 3870,
+  4850 
+
+Intel(R) Extreme Graphics
+  Windows: GMA 950, GMA 3x00
+  Mac OS X: GMA X3100
+
+Verze těchto čipových sad pro notebooky mohou fungovat, ale poměrně
+pomalu. Samostatné grafické karty, nainstalované v klasickém PCI slotu
+(ne PCIe nebo PCIx nebo AGP), jako například některé varianty
+GeForce FX, budou podávat špatný výkon. Integrované čipsety Intel s kartami
+např. 945Gu, GML a GMS nebudou fungovat uspokojivě.
+
+Integrované čipové sady, jako jsou ATI Xpress 200 a varianty
+NVIDIA TurboCache budou mít automaticky vybrány nízké nastavení,
+ale poběží uspokojivě.
+
+Mějte prosím na paměti, že pokud se pokusíte hrát za použití grafického 
+hardwaru, který není uveden výše, může to mít za následek zhoršený 
+herní výkon, grafické problémy a případně se hra nemusí spustit vůbec.
+
+Řada NVIDIA GeForce FX není ve Windows Vista podporována.
+
+
+Známé hardwarové problémy
+----------------------
+
+Hra se může při malování vaší příšerky nebo během přepínání
+mezi zobrazením přes celou obrazovku a v okně zaseknout. Problém
+vyřešíte aktualizací ovladačů vaší grafické karty ze stránek prodejce.
+
+Při změně velikosti zobrazení v některých situacích monitor nemusí 
+reagovat při rozlišeních, které má monitor údajně zvládat, a zobrazí
+se černá nebo zdeformovaná obrazovka. Pokud nastane tato situace, přepněte
+do režimu zobrazování oken a poté změňte rozlišení a hodnotu obnovovací
+frekvence zpět na nižší hodnoty.
+
+Audio zvyšování výkonu není podporováno.
+
+Windows Vista:
+Některým uživatelům Windows Vista se během spouštění hry může
+zobrazit varování na nedostatek adresního prostoru, společně s
+odkazem na znalostní bázi Microsoft Knowledge Base. Pokud se vám
+tato zpráva zobrazí, doporučujeme následovat instrukce, zmíněnou
+internetovou stránku navštívit a váš systém aktualizovat.
+
+Turtle Beach Montego DDL - Není podporován Surround 5.1. 
+Tento režim je ve volbách sice přístupný, ale zvuk zůstává 
+u všech reproduktorů pouze stereo (2 kanály).
+
+MAC OS X:
+Na systémech s MAC OS X, které jsou vybaveny kartami NVIDIA s
+méně nežli 256MB VRAM je někdy nutné snížit kvalitu grafického
+zobrazení pomocí postupů pro Řešení obecných problémů.
+
+Pokud máte hru spuštěnu na Mac Book Pro se zapnutým zrcadlovým
+displejem, ujistěte se, že máte zvoleno takové rozlišení, které
+podporuje interní i externí monitor. Tento problém se dá vyřešit tak,
+že interní monitor před spuštěním označíte jako hlavní systémový monitor a
+tak se vám budou zobrazovat správná rozlišení.
+
+Hra občas přestane přenášet audiozvuk, jestliže zapojíte sluchátka až poté,
+co jste hru spustili. Tomuto předejdete tak, že sluchátka k počítači Mac zapojíte
+vždy před spuštěním hry.
+
+Pokud během použití karty ATIX1600 nebo X1900 zaznamenáte problémy se zobrazením,
+snižte hodnotu osvětlení na nižší hodnotu.
+
+
+
+
+Rady pro zvýšení výkonu
+=======================
+
+Při prvním spuštění SPORE hra automaticky
+vybere nejvhodnější nastavení pro vaši grafickou kartu,
+procesor a zvukovou kartu. Pro zvýšení výkonu snižte v
+kontrolním panelu voleb nastavení na „střední“ nebo „nízké“.
+
+Výkon Tvoření příšerek také můžete zlepšit snížením
+rozlišení, v němž je hra spuštěna, na 1024 x 768, nebo
+800 x 600. Není doporučeno spouštět hru v celoobrazovkovém
+rozlišení, pokud má váš monitor napříč 1600 nebo více.
+
+Spore je 3D hra v reálném čase, která vyžaduje většinu početního
+výkonu vašeho počítače. Jiné programy, které běží na pozadí, mohou hru
+zpomalit a nebo způsobit při jejím běhu nesnáze. Nejlepších výsledků dosáhnete 
+ukončením veškerých aplikací na pozadí.
+
+Výkon při zobrazení na celou plochu je obecně lepší, nežli výkon
+při zobrazení v okně.
+
+
+Poznámky
+========
+
+Chybová hlášení SPORE
+--------------------
+
+1000: Již je spuštěna jedna verze Spore. Odejděte nebo ji nejprve vypněte.
+
+1001:  Hra nemůže nalézt žádné platné mody zobrazení. Ujistěte se, zda je Váš monitor nastaven na 32 bitů. 
+
+1002:  Rozhraní Direct X není nainstalováno. Nainstalujte jej prosím, nebo znovu nainstalujte hru. 
+       
+1004:  Hra nemůže nalézt adresář s daty. Znovu prosím nainstalujte hru.
+
+1010   Doporučujeme aktualizovat Vaše ovladače grafické karty, abyste se vyhnuli problémům s kompatibilitou. Obvykle tak můžete učinit navštívením stránek výrobce hardwaru vaší karty. Webové stránky pro NVIDIA, ATI, a Intel: 
+       
+         http://www.nvidia.com/content/drivers/drivers.asp
+         http://ati.amd.com/support/driver.html
+         http://support.intel.com/support/graphics/
+
+1011:  Je potřeba aktualizovat ovladače grafické karty, abyste se vyhnuli vážným problémům při hraní, viz výše. 
+
+1012:  Hra má problémy s touto kartou v modu multi-GPU (vícejádrová grafická karta). Aktualizujte prosím Vaše ovladače, nebo zakažte mód multi-GPU na ovládacím panelu prodejce. 
+
+2001:  Systém nesplňuje naše minimální systémové požadavky a nemůže vůbec hru spustit. 
+
+2002:  Systém nesplňuje naše minimální systémové požadavky a můžete mít problémy s grafikou, výkonem nebo zvukem.
+       
+2003:  Používáte verzi Windows Vista, která má problémy s grafickými kartami s velkým obsahem VRAM (video RAM). Buď přejděte na verzi SP1 nebo nainstalujte příslušnou opravu z:
+
+         http://support.microsoft.com/default.aspx/kb/940105
+
+Nápověda Online
+---------------
+
+Webová stránka pro podporu zákazníků Electronic Arts je umístěna na
+  http://support.ea.com
+pro uživatele ze severní Ameriky, nebo
+  http://eusupport.ea.com
+pro uživatele z Evropy.
+
+Požadované informace naleznete pomocí nástrojů pro vyhledávání. Znalostní báze
+(knowledge base) je aktualizována v okamžiku dostupnosti nových informací,
+takže se k znalostní bázi vracejte co nejčastěji.
+
+
+
+
+Instalace hry
+-------------
+
+Windows (uživatelé diskové verze):
+  * Disk s programem hry vložte do jednotky CD/DVD-ROM a řiďte se instrukcemi na obrazovce.
+  * Po dokončení instalace můžete hru spustit z menu Start.
+  * Hry v systému Windows vista(tm) jsou umístěny v menu Start>menu Hry a ve starších verzích
+    Windows(tm) v menu Start>Programy (nebo Všechny programy.
+
+Windows (uživatelé EA Store):
+  * Po stažení hry pomocí programu EA Download Manager klikněte na ikonu instalace, 
+    a řiďte se instrukcemi na obrazovce.
+  * Spusťte hru (až bude nainstalována) přímo z programu EA Download Manager.  
+
+V klasické nabíce Start systému Windows Vista jsou hry umístěny v menu Start>Programy>Hry>
+Průzkumník her
+
+
+
+Mac OS X:
+  * Disk s programem hry vložte do jednotky CD/DVD-ROM. Na ploše se objeví
+    ikona představující disk s programem hry. Dvojklikem na tuto ikonu spustíte
+    spouštěcí program.
+  * Zvolte ikonu instalátoru hry ve spodní části spouštěcího programu, a tím
+    vyvoláte menu pro instalaci.
+  * Pomocí pokynů na monitoru dokončete instalaci.
+
+
+Instalace hry od digitálního maloobchodníka
+-------------------------------------------
+
+
+Pokud potřebujete informace o instalaci hry nebo o stažení a přeinstalování jiné kopie hry,
+kontaktujte prosím obchodníka, od kterého jste tuto hru zakoupili.
+
+Poznámka: pokud byste chtěli získat další informace o Vaší hře nebo další tipy a patche,
+navštivte prosím stránku http://www.ea.com nebo http://www.eastore.com.
+
+
+Odinstalování hry
+-----------------
+
+Windows XP:
+  * Otevřete Přidat nebo odebrat programy v Ovládacím panelu
+  * Klikněte na Změnit nebo odebrat programy.
+  * Klikněte na položku programu SPORE.
+  * Klikněte na tlačítko Odebrat.
+  * Pomocí pokynů na monitoru dokončete odinstalování.
+
+Windows Vista:
+  * Otevřete ovládací panel Programy a funkce.
+  * Klikněte na položku programu SPORE.
+  * Klikněte na tlačítko Odinstalovat.
+  * Pomocí pokynů na monitoru dokončete odinstalování.
+
+Mac OS X:
+  * Ubezpečte se, že jste přihlášeni pod účtem, který má administrátorská práva.
+  * Složku SPORE vymažte z adresáře Aplikace.
+  * Další soubory naleznete v 
+   /Users/<Username>/Library/Preferences/Spore Preferences.
+  * Pro odstranění obsahu, který byl hrou Spore vytvořen, odstraňte adresář
+    /Uzivatele/<Uzivatelske jmeno>/Dokumenty/Moje vytvory Spore
+
+Umístění na disku
+-----------------
+
+Spore uchovává Vaše příšerky, filmy, obrázky
+a animované avatary v adresáři nazvaném "Moje výtvory Spore".
+Umístění tohoto adresáře závisí na Vašem operačním systému:
+
+Windows XP:
+
+  * Adresář "Moje výtvory Spore" je umístěn v adresáři "Moje dokumenty".
+
+Windows Vista:
+
+  * Adresář "Moje výtvory Spore" je umístěn v adresáři "Dokumenty".
+
+Mac OS X:
+  
+ * Adresář "Moje výtvory Spore" je umístěn v adresáři "Dokumenty".
+
+Spore také uchovává obsah mezipaměti obrázků pro opylený obsah,
+který jste si stáhli. Pokud vám dochází místo na disku, zkuste
+zmenšit velikost této mezipaměti v nastavení grafiky.
+     
+
+
+Ovládání a klávesové zkratky
+===================
+
+- Tvoření příšerek -
+
+Kliknutím levým tlačítkem myši označujete části a pohybujete jimi.
+
+Kliknutím levým tlačítkem myši a tažením úchytu ve tvaru šipky 
+zvolené části měníte tvar této části.
+
+Levým kliknutím a odtažením části mimo příšerku danou část prodáte
+zpátky.
+
+Přesuňte kurzor nad určitou část příšerky, či úsek páteře a pomocí
+kolečka myši měňte její/jeho velikost. Popřípadě danou část vyberte
+a použijte šipky nahoru a dolů.
+
+Pro zkopírování části na danou část klikněte a táhněte ji za
+současného držení klávesy Alt. Na systémech Mac použijte klávesu Option.
+
+Tvar páteře změníte kliknutím levým tlačítkem myši přímo na ni a tažením.
+Pomocí šipek můžete páteř prodlužovat a zkracovat.
+
+Levým kliknutím na kůži trupu (ne na páteř) jím můžete pohybovat.
+
+Přidržením klávesy Ctrl při přetahování úseku končetiny ho připojíte
+k jiné končetině.
+
+Přidržením klávesy Tab se vám odkryjí další rotační úchyty vybrané
+části.
+
+- Tvoření budov -
+
+Chcete-li část posunout vertikálně, stiskněte a podržte klávesu Control, zatímco
+na část kliknete a upravíte umístění pomocí myši.
+
+Chcete-li část přemístit přes povrh plošiny, stiskněte a podržte klávesu Shift,
+zatímco na část kliknete a upravíte umístění pomocí myši.
+
+- Tvoření vozidel-
+
+Skelet a části kokpitu se automaticky umisťují dolů do středu vozidla.
+
+Každé vozidlo má omezenou výšku i šířku.
+
+chcete-li pohybovat celým vozidlem, stiskněte a podržte tlačítko Shift, zatímco
+pohybujete myší.
+
+
+- Kamera -
+
+Kliknutím levým tlačítkem myši na pozadí kamerou pohybujete.
+
+V režimu hraní kameru přibližujete a oddalujete kolečkem myši.
+
+V režimech částí a malování přibližujete a oddalujete kameru pomocí
+klávesy Shift a kolečka myši. 
+
+< a >     Otáčí kameru
++ a -     Přibližuje a oddaluje kameru
+
+- Obecné -
+
+Ctrl-N      Začít novou příšerku
+Ctrl-Y      Znovu
+Ctrl-Z      Zpět
+Ctrl-S      Uložit příšerku
+Ctrl-H      Přepínání zobrazení uživatelského rozhraní
+H nebo ?    Otevření či zavření průvodce hrou Spore
+B           Otevření prohlížeče výtvorů
+
+Windows:
+Alt-Enter   Přepínání mezi zobrazením přes celou obrazovku a v okně.
+
+Mac OS X:
+Command-Return  Přepínání mezi režimem zobrazení přes celou obrazovku a v okně.
+Command-Tab	Minimalizování hry v režimu zobrazení přes celou obrazovku.
+
+Všimněte si, že při minimalizování hry se tato nezastaví, ale bude nadále
+běžet na pozadí.
+
+- Funkce pravého tlačítka myši u Mac OS X -
+
+Tato hra obsahuje funkce, které vyžadují pravé tlačítko myši. Pokud máte myš
+Apple Mighty Mouse, pravé tlačítko můžete aktivovat v Nastavení systému>Klávesnice a myš.
+Rolovací menu "Pravý klik" změňte na Sekundární tlačítko.
+
+Chcete-li nahradit klikání obou tlačítek zároveň pomocí Apple Mighty Mouse, stiskněte
+dolní skrolovací tlačítko nebo klikněte na levé tlačítko myši, zatímco držíte
+stisnuté klávesy Command a Option.
+
+
+
+Většina PC USB myší je na Macintosh podporována. Pravé a levé tlačítka myši jsou
+automaticky detekována a pracují na těchto myších správně při prvním zapojení.
+
+Pokud máte starou myš Apple s jedním tlačítkem nebo Mac Book Pro s dotykovou plochou,
+klik pravého tlačítka můžete emulovat přidržením klávesy Command v okamžiku stisknutí
+tlačítka myši.
+
+Chcete-li nahradit klikání obou tlačítek zároveň pomocí jediného tlačítka myši, stiskněte
+klávesy Command a Option, zatímco kliknete na tlačítko myši.
+
+
+Volby v příkazovém řádku
+---------------------
+
+V příkazovém řádku jsou k dispozici následující volby:
+  -w     Spustit v okně.
+  -f     Spustit v celoobrazovkovém režimu.
+  -r:<šířka>x<výška> 
+         Spustit v daném rozlišení.
+  -safe  Vynutit minimální nastavení a nenahrávat žádné volitelné
+         zásuvné moduly.
+
+
+Cheaty
+------
+
+Pro zpřístupnění cheatů ve hře nejprve stisknutím Ctrl-Shift-C otevřete 
+příkazovou konzoli. Stisknutím klávesy Enter příkazovou konzoli zavřete.
+Zde jsou některé z cheatů, které mohou být použity:
+
+help: zobrazí všechny herní cheaty.
+help [jménocheatu]: zobrazí specifické informace o cheatu.
+quit: ukončit hru.
+
+
+Poznámky ke kompatibilitě
+===================
+
+SPORE je navrhnuto pro spouštění a běh
+s grafickými a zvukovými kartami podporovanými
+systémem Windows (R) XP. Ovladače jsou dodávány
+příslušným výrobcem karet a mohou způsobit problémy
+s kompatibilitou, které jsou mimo naši kontrolu.
+
+Pokud máte takové problémy, je vždy doporučeno získat
+a nainstalovat nejnovější ovladače pro váš hardware.
+Většina výrobců hardwaru má nejnovější ovladače
+ke svým produktům ke stažení na svých internetových
+stránkách.
+
+Více informací o známých technických problémech je dostupných na http://www.spore.com.
+
+Děkujeme, že hrajete SPORE!
+Tým SPORE
+MAXIS
+
+
+

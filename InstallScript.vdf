@@ -1,0 +1,116 @@
+"installscript"
+{
+	"registry"
+	{
+		"hkey_local_machine\\software\\electronic arts\\ea games\\spore(tm)\\ergc"
+		{
+			"string"
+			{
+				"(default)"		"%CDKEY%"
+			}
+		}
+		"hkey_local_machine\\software\\electronic arts\\spore"
+		{
+			"dword"
+			{
+				"reindexyesorno"		"0"
+				"installcompleted"		"1"
+			}
+			"string"
+			{
+				"appdir"		"Spore"
+				"installloc"		"%INSTALLDIR%"
+				"datadir"		"%INSTALLDIR%\\Data"
+				"czech"
+				{
+					"locale"		"cs-cz"
+					"playerdir"		"Moje Spore výtvory"
+				}
+				"danish"
+				{
+					"locale"		"da-dk"
+					"playerdir"		"Mine Spore-kreationer"
+				}
+				"german"
+				{
+					"locale"		"de-de"
+					"playerdir"		"MeinSpore-Kreationen"
+				}
+				"english"
+				{
+					"locale"		"en-us"
+					"playerdir"		"My Spore Creations"
+				}
+				"spanish"
+				{
+					"locale"		"es-es"
+					"playerdir"		"Mis Creaciones Spore"
+				}
+				"finnish"
+				{
+					"locale"		"fi-fi"
+					"playerdir"		"Omat Spore-luomukset"
+				}
+				"french"
+				{
+					"locale"		"fr-fr"
+					"playerdir"		"Mes Créations"
+				}
+				"hungarian"
+				{
+					"locale"		"hu-hu"
+					"playerdir"		"Spóralkotások"
+				}
+				"italian"
+				{
+					"locale"		"it-it"
+					"playerdir"		"Creazioni Spore"
+				}
+				"dutch"
+				{
+					"locale"		"nl-nl"
+					"playerdir"		"Mijn Spore-creaties"
+				}
+				"norwegian"
+				{
+					"locale"		"no-no"
+					"playerdir"		"Mine Spore-skapninger"
+				}
+				"portuguese"
+				{
+					"locale"		"pt-pt"
+					"playerdir"		"As Minhas Criações Spore"
+				}
+				"polish"
+				{
+					"locale"		"pl-pl"
+					"playerdir"		"Moje dziela SPORE"
+				}
+				"russian"
+				{
+					"locale"		"ru-ru"
+					"playerdir"		"My Spore Creations"
+				}
+				"swedish"
+				{
+					"locale"		"sv-se"
+					"playerdir"		"Mina Sporeskapelser"
+				}
+			}
+		}
+	}
+	"Run Process"
+	{
+		"dxsetup"
+		{
+			"hasrunkey"		"HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\17390"
+			"process 1"		"%INSTALLDIR%\\installers\\DX9Redist\\DXSETUP.exe"
+			"command 1"		"/silent"
+			"nocleanup"		"1"
+		}
+	}
+}
+"kvsignatures"
+{
+	"installscript"		"62e8c1898258d71af7805bd5810174a549aa23cdd542e9a1e7f3c709a0cff7806226260b718038c937bc0bc08f2706ec2ea86fe75141a252bf81e3685673044c126148d32a2d20aa528c328ab639f516bcd738fb7d60b268cd85d1c1d505ca67309d5b1aadb78fd5d3ebc93093203cb6bb24492657c2ecb8caf76a8e9d631cdf"
+}

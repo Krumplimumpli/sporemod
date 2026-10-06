@@ -1,0 +1,116 @@
+"InstallScript"
+{
+	"Registry"
+	{
+		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Electronic Arts\\SPORE"
+		{
+			"string"
+			{
+				"AppDir"		"Spore"
+				"Czech"
+				{
+					"Locale"		"cs-cz"
+					"PlayerDir"		"Moje Spore výtvory"
+				}
+				"danish"
+				{
+					"Locale"		"da-dk"
+					"PlayerDir"		"Mine Spore-kreationer"
+				}
+				"german"
+				{
+					"Locale"		"de-de"
+					"PlayerDir"		"MeinSpore-Kreationen"
+				}
+				"english"
+				{
+					"Locale"		"en-us"
+					"PlayerDir"		"My Spore Creations"
+				}
+				"spanish"
+				{
+					"Locale"		"es-es"
+					"PlayerDir"		"Mis Creaciones Spore"
+				}
+				"finnish"
+				{
+					"Locale"		"fi-fi"
+					"PlayerDir"		"Omat Spore-luomukset "
+				}
+				"french"
+				{
+					"Locale"		"fr-fr"
+					"PlayerDir"		"Mes Créations"
+				}
+				"hungarian"
+				{
+					"Locale"		"hu-hu"
+					"PlayerDir"		"Spóralkotások"
+				}
+				"italian"
+				{
+					"Locale"		"it-it"
+					"PlayerDir"		"Creazioni Spore"
+				}
+				"dutch"
+				{
+					"Locale"		"nl-nl"
+					"PlayerDir"		"Mijn Spore-creaties"
+				}
+				"norwegian"
+				{
+					"Locale"		"no-no"
+					"PlayerDir"		"Mine Spore-skapninger"
+				}
+				"polish"
+				{
+					"Locale"		"pl-pl"
+					"PlayerDir"		"Moje dzieła SPORE"
+				}
+				"portuguese"
+				{
+					"Locale"		"pt-pt"
+					"PlayerDir"		"As Minhas Criações Spore"
+				}
+				"russian"
+				{
+					"Locale"		"ru-ru"
+					"PlayerDir"		"Мои творения"
+				}
+				"swedish"
+				{
+					"Locale"		"sv-se"
+					"PlayerDir"		"Mina Sporeskapelser"
+				}
+			}
+		}
+		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Electronic Arts\\SPORE Creepy and Cute Parts Pack"
+		{
+			"dword"
+			{
+				"AddOnID"		"1"
+				"PackID"		"116700625"
+			}
+			"string"
+			{
+				"DataDir"		"%INSTALLDIR%\\bp1content\\"
+				"ProductKey"		"%CDKEY%"
+			}
+		}
+	}
+	"Run Process"
+	{
+		"DXSetup"
+		{
+			"HasRunKey"		"HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\17390"
+			"process 1"		"%INSTALLDIR%\\installers\\DX9Redist\\DXSETUP.exe"
+			"command 1"		"/silent"
+			"NoCleanUp"		"1"
+			"MinimumHasRunValue"		"2"
+		}
+	}
+}
+"kvsignatures"
+{
+	"InstallScript"		"29a1242e87e9b338b8cbe918958c5f481100d7d236900737a346ddbefccdb63060a8d25d23286f1c0c579eb23f0e901aeb23215ef4810594a08ad8fe9e5980ca205481e9c582fe436a7df4d4f1559e2633b76252031b1cbfcb416248bef0f9b92945c49c3f69b3cc50bec54e484e4f0b8c07821be851aa7e119a60d2f6fc7824"
+}

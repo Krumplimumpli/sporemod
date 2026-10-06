@@ -1,0 +1,372 @@
+﻿Plik Przeczytaj do gry SPORE(TM)
+(c) 2008 Electronic Arts Inc. Wszystkie prawa zastrzeżone.
+
+MAXIS(TM) 01.09.08
+Wersja 1.0
+
+== Spis treści ==
+Ogólne
+Wymagania systemowe
+Znane problemy sprzętowe
+Wskazówki dotyczące wydajności
+Uwagi
+Sterowanie i skróty klawiszowe
+Uwagi dotyczące zgodności
+
+
+OGÓLNE
+======
+
+Witaj w grze SPORE! Mamy nadzieję, że będziesz się wyśmienicie bawić. 
+Aby zapoznać się z najświeższymi informacjami o grze SPORE i powiązanymi z nią produktami, odwiedź serwis http://www.spore.com
+
+
+Wymagania systemowe
+===================
+
+Gra SPORE ma następujące wymagania systemowe:
+
+DLA WINDOWS XP
+ * procesor P4 2,0 GHz lub odpowiednik,
+ * 512 MB pamięci RAM
+ * karta graficzna ze 128 MB pamięci VideoRAM i obsługą funkcji Pixel Shader 2.0, 
+ * Najnowsza wersja DirectX 9.0c
+ * Pakiet serwisowy Microsoft Windows XP Service Pack 1
+ * co najmniej 4 GB wolnego miejsca na dysku twardym, plus co najmniej 1 GB dodatkowego miejsca na dzieła
+
+DLA WINDOWS VISTA
+ * procesor P4 2,0 GHz lub odpowiednik,
+ * 768 MB pamięci RAM
+ * karta graficzna ze 128 MB pamięci VideoRAM i obsługą funkcji Pixel Shader 2.0,  
+ * co najmniej 4 GB wolnego miejsca na dysku twardym, plus co najmniej 1 GB dodatkowego miejsca na dzieła
+
+W przypadku komputerów używających wbudowanych układów graficznych pod Windows minimalne wymagania gry to:
+ * zintegrowany zestaw układów Intel, 945GM lub lepszy.
+ * procesor Pentium 2,6 GHz D lub procesor 1,8 GHz Core 2 Duo lub odpowiednik.
+ * 768 MB pamięci RAM
+
+DLA MAC OS X
+ * system operacyjny Mac OS X 10.5.3 Leopard lub nowszy
+ * procesor Intel Core Duo
+ * 1024 MB pamięci RAM
+ * karta graficzna ATI X1600 lub Nvidia 7300 GT ze 128 MB pamięci VideoRAM, lub karta Intel Integrated GMA X3100
+ * co najmniej 4 GB wolnego miejsca na dysku twardym, plus co najmniej 1 GB dodatkowego miejsca na dzieła
+
+Program nie uruchomi się na komputerach Mac z procesorami PowerPC (G3/G4/G5) ani ze zintegrowaną kartą graficzną GMA 950.
+
+
+Obsługiwane karty graficzne:
+----------------------------
+
+NVIDIA GeForce, serie:
+  FX 5900, FX 5950
+  6200, 6500, 6600, 6800,
+  7200, 7300, 7600, 7800, 7900, 7950
+  8400, 8500, 8600, 8800
+  9600, 9800, GTX 260, GTX 280
+
+ATI Radeon(TM), serie:
+  9500, 9600, 9800
+  X300, X600, X700, X800, X850
+  X1300, X1600, X1800, X1900, X1950
+  2400, 2600, 2900,
+  3450, 3650, 3850, 3870,
+  4850
+
+Intel(R) Extreme Graphics
+  Windows: GMA 950, GMA z serii 3x00
+  Mac OS X: GMA X3100
+  
+W przypadku wersji powyższych układów montowanych w laptopach program może działać prawidłowo, ale stosunkowo wolniej. Karty graficzne instalowane w gniazdach PCI (a nie PCIe, PCIx lub AGP), takie jak niektóre wersje kart GeForce FX, zapewniają dużo gorszą wydajność. Zintegrowane zestawy układów Intel wykorzystujących elementy o obniżonym taktowaniu, takie jak 945GU, GML, oraz GMS, nie zapewnią wystarczającej wydajności.
+
+W przypadku zintegrowanych układów graficznych (np. ATI Xpress lub NVIDIA TurboCache) program powinien działać sprawnie, aczkolwiek przy niskich opcjach jakości obrazu.
+
+Próba uruchomienia programu na komputerze wyposażonym w kartę, która nie została wymieniona powyżej, może się nie powieść lub może skutkować spadkiem wydajności bądź problemami z wyświetlaniem.
+
+W przypadku systemu Windows(R) Vista karty NVIDIA GeForce FX nie są obsługiwane.
+
+
+Znane problemy sprzętowe
+========================
+
+Gra może się zawieszać podczas malowania stwora, albo po przełączeniu między trybami pełnoekranowym i okienkowym. Aby usunąć ten problem, zaktualizuj sterowniki karty graficznej, pobrane z witryny producenta.
+
+Podczas zmieniania rozdzielczości może się zdarzyć, że monitor nie będzie wyświetlać obrazu w trybie, który zgodnie ze swoimi danymi technicznymi powinien obsługiwać, lub będzie wyświetlać obraz zniekształcony. W takim przypadku należy nacisnąć ALT + Enter, aby przełączyć się do trybu okienkowego, po czym przywrócić wcześniejsze prawidłowe ustawienia rozdzielczości ekranu i częstotliwości odświeżania obrazu.
+
+Sprzętowa akceleracja dźwięku nie jest obsługiwana.
+
+Windows Vista:
+Po uruchomieniu gry niektórzy użytkownicy systemu operacyjnego Microsoft Vista mogą otrzymać komunikat ostrzegający o braku pamięci adresowej, wraz z odnośnikiem do bazy wiedzy Microsoft (Microsoft Knowledge Base). Jeśli otrzymasz ten komunikat, zalecamy wykonanie instrukcji i przejście na witrynę pod adresem wymienionym w komunikacie, w celu dokonania aktualizacji systemu.
+
+Turtle Beach Montego DDL - tryb Surround 5.1 nie jest obsługiwany. 
+Ten tryb jest dostępny w wyborze opcji, ale generowany dźwięk we wszystkich głośnikach będzie w jakości stereo (dwukanałowy).
+
+Mac OS X:
+W przypadku komputerów działających pod kontrolą systemu Mac OS X i wyposażonych w kartę graficzną NVIDIA o pojemności pamięci VRAM mniejszej niż 256 MB może się okazać konieczne zmniejszenie jakości wyświetlanego obrazu zgodnie z instrukcjami podanymi w sekcji dotyczącej rozwiązywania problemów.
+
+W przypadku uruchamiania gry na notebooku MacBook Pro z włączoną funkcją klonowania obrazu, należy wybrać rozdzielczość obsługiwaną przez oba wyświetlacze (wewnętrzny i zewnętrzny). 
+Aby obejść ten problem, należy przed włączeniem tej funkcji upewnić się, że wewnętrzny wyświetlacz LCD jest głównym monitorem. W ten sposób rozdzielczość będzie zawsze właściwa.
+
+W przypadku podłączenia słuchawek po uruchomieniu gry dźwięk może zostać wyłączony. Aby uniknąć tego problemu, należy podłączyć słuchawki do komputera Mac przed uruchomieniem gry.
+
+W przypadku wystąpienia problemów z liczbą klatek na sekundę na komputerach z kartami ATI X1600 lub X1900 należy zmienić ustawienie jakości oświetlenia na niskie.
+
+
+Wskazówki dotyczące wydajności
+==============================
+
+Przy pierwszym uruchomieniu gra SPORE automatycznie wybierze najlepsze ustawienia dla wykrytej karty graficznej i dźwiękowej oraz procesora. Aby poprawić szybkość działania programu, zmień ustawienie na panelu kontrolnym opcji na „średnie” lub „niskie”.
+
+Innym sposobem na poprawienie wydajności gry jest zmniejszenie rozdzielczości ekranu do 1024x768 lub 800x600 pikseli. Nie zaleca się uruchamiania gry na pełnym ekranie, jeżeli rozdzielczość obrazu na Twoim komputerze w poziomie wynosi 1600 lub więcej.
+
+Gra SPORE generuje grafikę 3D w czasie rzeczywistym i w związku z tym wymaga większości mocy obliczeniowej komputera. Inne programy działające w tle mogą spowolnić działanie gry SPORE lub powodować jej zacinanie. Aby osiągnąć optymalną wydajność, zamknij wszystkie aplikacje działające w tle przed uruchomieniem gry.
+
+Generalnie gra działa płynniej w trybie pełnoekranowym niż w trybie okienkowym.
+
+
+Uwagi
+=====
+
+Komunikaty błędów SPORE
+-----------------------
+
+Poniżej wymienione są kody i komunikaty błędów, które mogą wystąpić w czasie używania gry, wraz z sugestiami jak je naprawić.
+
+1000:  Gra SPORE jest już uruchomiona. Zamknij grę lub zakończ proces.
+
+1001:  Gra nie może znaleźć żadnego poprawnego trybu wyświetlania.
+       Upewnij się, że ekran jest ustawiony na 32-bitową głębię kolorów.
+
+1002:  Nie zainstalowano bibliotek DirectX.
+       Zainstaluj biblioteki lub zainstaluj ponownie grę.
+
+1004:  Gra nie może znaleźć folderu z danymi. Zainstaluj ją ponownie.
+
+1010:  Zaleca się zaktualizowanie sterowników karty graficznej, 
+       aby uniknąć problemów ze zgodnością sprzętu. 
+       Zwykle wystarczy odwiedzić serwis internetowy producenta karty
+       i pobrać odpowiednie pliki instalacyjne. 
+       W przypadku układów NVIDIA, ATI oraz Intel adresy stron ze sterownikami to:
+
+         http://www.nvidia.com/content/drivers/drivers.asp
+         http://ati.amd.com/support/driver.html
+         http://support.intel.com/support/graphics/
+
+1011:  Wymagane jest zaktualizowanie sterowników karty graficznej,
+       aby uniknąć poważnych problemów z działaniem gry. Patrz wyżej.
+
+1012:  Gra napotkała problemy we współpracy z kartą graficzną
+       w trybie wielu procesorów graficznych. Zaktualizuj sterowniki
+       karty graficznej lub wyłącz tryb wielu procesorów graficznych
+       za pomocą oprogramowania dołączonego do karty.
+
+2001:  Komputer nie spełnia minimalnych wymagań systemowych.
+       Gra nie może zostać uruchomiona.
+
+2002:  Komputer nie spełnia minimalnych wymagań systemowych. 
+       W czasie gry mogą wystąpić problemy z obrazem, dźwiękiem
+       lub wydajnością.
+
+2003:  Na komputerze zainstalowana jest wersja systemu Windows Vista®,
+       w której występują problemy z kartami graficznymi wyposażonymi
+       w dużą ilość pamięci VideoRAM.
+       Zainstaluj w swoim systemie pakiet serwisowy SP1 lub poprawkę
+       dostępną pod następującym adresem:
+
+         http://support.microsoft.com/default.aspx/kb/940105
+
+
+Pomoc w Internecie
+------------------
+
+Serwis obsługi klienta Electronic Arts znajduje się pod adresem http://support.ea.com w przypadku użytkowników z Ameryki Północnej lub http://eusupport.ea.com w przypadku użytkowników z Europy. 
+
+Aby znaleźć potrzebne informacje, należy skorzystać z narzędzi wyszukiwania. Baza wiedzy jest aktualizowana za każdym razem, gdy dostępne stają się nowe informacje. Dlatego też należy regularnie zaglądać do serwisu w ich poszukiwaniu.
+
+Instalacja gry
+--------------
+
+Windows (werjsa CD):
+ * Włóż płytę z grą do swojego napędu i postępuj zgodnie z instrukcjami wyświetlanymi na ekranie.
+ * Po zainstalowaniu gry możesz ją uruchomić za pomocą skrótów umieszczonych w menu Start.
+ * W przypadku systemu Windows Vista(TM) gry znajdują się w Start > Gry. 
+   We wcześniejszych wersjach systemu Windows gry znajdują się w Start > Programy (lub Wszystkie programy).
+Windows (wersja EA Store):
+ * Po pobraniu gry za pomocą programu EA Download Manager kliknij ikonę instalatora i postępuj zgodnie z instrukcjami wyświetlanymi na ekranie.
+ * Po zainstalowaniu gry uruchom ją bezpośrednio z programu EA Download Manager.
+
+W przypadku systemu Windows Vista(TM) z klasycznym układem menu Start gry znajdują się w Start > Programy > Gry > Eksplorator gier.
+
+Mac OS X:
+ * Włóż płytę z grą do napędu CD/DVD-ROM. Na pulpicie pojawi się ikona reprezentująca płytę CD. Dwukrotnie kliknij ikonę, aby otworzyć program uruchamiający grę.
+ * Wybierz ikonę instalatora gry na dole programu uruchamiającego, aby wywołać menu instalacji. 
+ * Wykonuj instrukcje pojawiające się na ekranie, aby ukończyć instalację.
+
+Instalacja detalicznej wersji pobranej
+--------------------------------------
+
+Skontaktuj się z dystrybutorem cyfrowym, od którego kupiona została gra, aby uzyskać informacje na temat jej instalacji lub też pobrania oraz instalacji kolejnego egzemplarza gry.
+
+Uwaga: Aby uzyskać dodatkowe informacje o grze, a także podpowiedzi i aktualizacje, odwiedź stronę http://www.ea.com lub http://www.eastore.com.
+
+Dezinstalacja gry
+-----------------
+
+Windows XP:
+ * Otwórz „Panel sterowania” i kliknij dwukrotnie „Dodaj lub usuń programy”.
+ * Kliknij „Zmień lub usuń programy”.
+ * Kliknij wpis „SPORE(TM)”.
+ * Kliknij przycisk „Usuń”. 
+ * Postępuj zgodnie z instrukcjami wyświetlanymi na ekranie, aby wykonać dezinstalację.
+
+Windows Vista:
+ * Otwórz „Panel sterowania” i kliknij dwukrotnie „Programy i funkcje”. 
+ * Kliknij wpis „SPORE(TM)”. 
+ * Kliknij przycisk „Odinstaluj”. 
+ * Postępuj zgodnie z instrukcjami wyświetlanymi na ekranie, aby wykonać dezinstalację.
+
+Mac OS X:
+ * Upewnij się, że Twoje konto ma uprawnienia administratora.
+ * Usuń folder SPORE z folderu Programy.
+ * Usuń dodatkowe pliki zlokalizowane w folderze /Users/<nazwa_użytkownika>/Library/Preferences/SPORE Preferences.
+ * Aby usunąć elementy utworzone w grze SPORE, usuń folder /Users/<nazwa_użytkownika>/Dokumenty/Moje dzieła SPORE.
+
+Foldery na dysku
+----------------
+
+Gra SPORE zapisuje zbudowane stwory, nagrane filmy, zrobione zdjęcia i animowane awatary w podfolderze „Moje dzieła SPORE”.
+Położenie tego foldera zależy od używanego systemu operacyjnego:
+
+Windows XP:
+* Folder „Moje dzieła SPORE” znajduje się w folderze „Moje Dokumenty”. 
+
+Windows Vista:
+* Folder „Moje dzieła SPORE” znajduje się w folderze „Dokumenty”.
+
+Mac OS X:
+* Folder „Moje dzieła SPORE” znajduje się w folderze „Dokumenty”.
+
+Gra SPORE buforuje również na dysku zasoby graficzne pobranych materiałów. Jeżeli na Twoim dysku twardym zostało niewiele miejsca, spróbuj zmniejszyć w opcjach grafiki rozmiar tego bufora.
+
+
+Sterowanie i skróty klawiszowe
+==============================
+
+- Fabryka stworów -
+
+Kliknij lewym przyciskiem myszy, aby wybierać i przesuwać elementy.
+
+Kliknij lewym przyciskiem myszy, aby przesuwać uchwyty w formie strzałki na aktualnie wybranym elemencie, co powoduje zmianę jego kształtu.
+
+Kliknij lewym przyciskiem myszy i ściągaj elementy ze stwora, aby je odsprzedawać.
+
+Przesuń kursor myszy nad element lub fragment kręgosłupa i użyj kółka myszy, aby zmienić rozmiary elementu. Możesz także wybrać element i użyć klawiszy ze strzałkami w górę i w dół.
+
+Przytrzymaj wciśnięty klawisz ALT, klikając i przeciągając element, aby go skopiować. W przypadku komputerów Mac zamiast przycisku ALT użyj przycisku Option.
+
+Kliknij lewym przyciskiem myszy i przeciągnij kursor na kręgosłupie, aby zmienić jego kształt. Użyj strzałek, aby wydłużać lub skracać kręgosłup.
+
+Kliknij lewym przyciskiem myszy na skórze korpusu (nie na kręgosłupie), aby go przesunąć.
+
+Przytrzymaj wciśnięty klawisz CTRL przeciągając fragment kończyny, aby przyłączyć ją do innej kończyny.
+
+Przytrzymaj wciśnięty klawisz TAB, gdy wybrany jest element, aby wyświetliły się dodatkowe uchwyty obrotu.
+
+
+- Fabryka budynków -
+
+Przytrzymaj wciśnięty klawisz CTRL, klikając element, po czym porusz myszą, aby przesunąć element w pionie.
+
+Przytrzymaj wciśnięty klawisz Shift, klikając element, po czym porusz myszą, aby przesunąć element w poprzek podium.
+
+
+- Fabryka pojazdów -
+
+Elementy kadłubu/nadwozia i kokpity są automatycznie umieszczane na środku pojazdu.
+
+Wysokość i szerokość pojazdu nie może przekroczyć określonych granic.
+
+Przytrzymaj wciśnięty klawisz Shift, po czym porusz myszą, aby przesunąć cały pojazd.
+
+
+- Kamera -
+
+Kliknij lewym przyciskiem myszy na tle, aby przesuwać kamerę.
+
+W trybie próby generalnej za pomocą kółka myszy można przybliżać i oddalać widok kamery.
+
+W trybie budowy i malowania, obracanie kółkiem myszy przy wciśniętym klawiszu SHIFT powoduje przybliżanie i oddalanie widoku kamery. 
+
+< oraz > = obracanie kamery.
++ oraz - = przybliżanie i oddalanie widoku.
+
+- Ogólne -
+
+CTRL-N = rozpoczęcie budowy nowego stwora.
+CTRL-Y = powtórzenie ostatniej czynności.
+CTRL-Z = cofnięcie ostatniej czynności.
+CTRL-S = zapisanie stwora.
+CTRL-H = wyświetlenie/ukrycie interfejsu.
+H lub ? = wyświetlenie/ukrycie Przewodnika SPORE.
+B = wyświetlenie Sporpedii.
+
+Windows:
+ALT-Enter = przełączenie programu między trybem pełnoekranowym a okienkowym.
+
+Mac OS X:
+Command-Return = przełączenie programu między trybem pełnoekranowym a okienkowym.
+Command-Tab = zminimalizowanie programu (w trybie pełnoekranowym).
+
+Uwaga: minimalizacja programu nie wstrzymuje jego działania. Program zminimalizowany będzie dalej działać w tle.
+
+
+- Prawy przycisk myszy w Mac OS X -
+
+Ten program zawiera funkcje wymagające użycia prawego przycisku myszy. 
+W przypadku posiadania myszy Apple Mighty Mouse funkcję prawego przycisku można włączyć w oknie „Preferencje systemowe”->„Klawiatura i mysz”, wybierając opcję „Secondary Button” (drugi przycisk) w menu rozwijanym „Right Click” (prawy przycisk).
+
+Aby emulować kliknięcie oboma przyciskami na raz w przypadku myszy Apple Mighty Mouse, przytrzymaj wciśnięty przycisk przewijania lub przytrzymaj wciśnięte klawisze Command i Option i kliknij lewym przyciskiem myszy.
+
+Komputery Macintosh współpracują również z myszkami do komputerów PC podłączanymi do portu USB.
+Oba podstawowe przyciski takich myszek są prawidłowo wykrywane i obsługiwane w chwili ich podłączenia.
+
+W przypadku posiadania starszej myszy Apple z jednym przyciskiem lub notebooka MacBook Pro z panelem dotykowym funkcję kliknięcia prawego przycisku można emulować poprzez przytrzymanie wciśniętego klawisza Command podczas klikania za pomocą myszy.
+
+Aby emulować kliknięcie oboma przyciskami na raz w przypadku myszy z jednym przyciskiem, przytrzymaj wciśnięte klawisze Command i Option i kliknij przyciskiem myszy.
+
+
+Opcje wiersza poleceń
+---------------------
+
+Obsługiwane są następujące opcje wiersza poleceń:
+  -w = uruchomienie w trybie okienkowym.
+  -f = uruchomienie w trybie pełnoekranowym.
+  -r:<szerokość>x<wysokość> = uruchomienie w podanej rozdzielczości.
+  -safe = wymuszenie minimalnego zestawu opcji konfiguracji, bez wczytywania opcjonalnych wtyczek.
+
+
+Kody
+----
+
+Aby móc korzystać z kodów, najpierw należy otworzyć konsolę, naciskając jednocześnie klawisze CTRL-SHIFT-C. Poniżej wymieniamy niektóre z dostępnych kodów:
+
+help: wyświetlenie wszystkich dostępnych kodów.
+help [nazwa kodu]: wyświetlenie bliższych informacji o danym kodzie.
+quit: wyjście z gry.
+
+
+Uwagi dotyczące zgodności
+=========================
+
+Gra SPORE została zaprojektowana, aby współpracować z kartami graficznymi i dźwiękowymi zgodnymi z systemem Windows XP. Sterowniki do tych urządzeń są udostępniane przez producentów kart i mogą powodować problemy, na które nie mamy żadnego wpływu.
+
+Jeżeli napotkasz jakiekolwiek problemy z działaniem programu, w pierwszej kolejności zawsze pobierz i zainstaluj najnowsze wersje sterowników do posiadanych urządzeń. Większość producentów sprzętu udostępnia najnowsze wersje odpowiednich sterowników do pobrania ze swoich serwisów internetowych.  
+
+
+Więcej informacji o znanych problemach technicznych można uzyskać pod adresem http://www.spore.com.
+
+Dziękujemy za granie w SPORE!
+Zespół SPORE
+MAXIS
+
+
